@@ -1,0 +1,1001 @@
+task_id,title,description,created_at,due_date,creator,assignee,priority,workload_hours,assignee_completed_tasks,assignee_avg_completion_days,status,days_to_due,is_overdue
+1,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-30 22:25:59.627850,2025-10-09 22:25:59.627850,bob,bob,0,2,193,0.96,done,9,0
+2,Research new lib,Create responsive landing page for product X using Figma mockups.,2025-09-20 22:25:59.627850,2025-10-04 22:25:59.627850,alice,alice,0,1,60,1.55,done,14,0
+3,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-08-26 22:25:59.627850,2025-09-13 22:25:59.627850,diana,bob,2,4,155,1.75,open,18,1
+4,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-09-04 22:25:59.627850,2025-09-13 22:25:59.627850,bob,bob,0,12,91,0.96,in_progress,9,1
+5,Design landing page,Respond to important client email about billing dispute.,2025-10-07 22:25:59.627850,2025-10-19 22:25:59.627850,charlie,alice,0,8,122,2.91,in_progress,12,0
+6,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-09-01 22:25:59.627850,2025-09-21 22:25:59.627850,charlie,bob,0,8,22,0.71,open,20,1
+7,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-10-07 22:25:59.627850,2025-10-15 22:25:59.627850,alice,diana,0,3,121,3.36,in_progress,8,0
+8,Prepare monthly report,Respond to important client email about billing dispute.,2025-09-05 22:25:59.627850,2025-09-12 22:25:59.627850,charlie,alice,1,6,167,1.27,done,7,0
+9,Deploy microservice,Gather sales data and prepare report for stakeholders by Friday.,2025-09-12 22:25:59.627850,2025-09-25 22:25:59.627850,charlie,bob,2,8,88,4.29,open,13,1
+10,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-04 22:25:59.627850,2025-10-15 22:25:59.627850,diana,charlie,2,1,59,4.61,done,11,0
+11,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-09-24 22:25:59.627850,2025-10-10 22:25:59.627850,diana,diana,0,2,72,1.13,done,16,0
+12,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-08-30 22:25:59.627850,2025-09-18 22:25:59.627850,diana,diana,0,3,61,4.99,open,19,1
+13,Research new lib,Write unit tests for payment module to improve coverage.,2025-08-19 22:25:59.627850,2025-08-21 22:25:59.627850,alice,bob,2,8,45,4.06,in_progress,2,1
+14,Plan sprint,Create responsive landing page for product X using Figma mockups.,2025-09-07 22:25:59.627850,2025-09-20 22:25:59.627850,diana,charlie,0,6,7,3.56,open,13,1
+15,Research new lib,Update package.json dependencies and run compatibility tests.,2025-10-02 22:25:59.627850,2025-10-13 22:25:59.627850,alice,charlie,0,4,45,2.54,done,11,0
+16,Update dependencies,Investigate new ML library for text embeddings and feasibility.,2025-10-01 22:25:59.627850,2025-10-07 22:25:59.627850,alice,charlie,1,12,168,2.78,open,6,1
+17,Prepare monthly report,Respond to important client email about billing dispute.,2025-10-01 22:25:59.627850,2025-10-07 22:25:59.627850,alice,charlie,1,4,9,1.0,in_progress,6,1
+18,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-08-17 22:25:59.627850,2025-08-25 22:25:59.627850,alice,alice,0,8,129,4.17,done,8,0
+19,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-09-25 22:25:59.627850,2025-10-11 22:25:59.627850,bob,charlie,0,6,160,2.4,open,16,1
+20,Research new lib,Deploy new service to production cluster and monitor for errors.,2025-09-28 22:25:59.627850,2025-10-08 22:25:59.627850,diana,charlie,0,4,137,2.53,open,10,1
+21,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-09-04 22:25:59.627850,2025-09-05 22:25:59.627850,bob,bob,2,1,23,3.69,open,1,1
+22,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-10-10 22:25:59.627850,2025-10-12 22:25:59.627850,charlie,alice,2,6,65,1.75,in_progress,2,1
+23,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-08-22 22:25:59.627850,2025-09-10 22:25:59.627850,diana,bob,2,12,126,4.13,open,19,1
+24,Design landing page,Create responsive landing page for product X using Figma mockups.,2025-09-25 22:25:59.627850,2025-10-09 22:25:59.627850,charlie,diana,0,4,124,4.39,open,14,1
+25,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-08 22:25:59.627850,2025-09-19 22:25:59.627850,alice,bob,0,2,53,2.91,open,11,1
+26,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-08-31 22:25:59.627850,2025-09-15 22:25:59.627850,bob,alice,0,4,145,0.94,done,15,0
+27,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-19 22:25:59.627850,2025-08-27 22:25:59.627850,bob,diana,0,4,128,1.46,in_progress,8,1
+28,Fix login bug,Gather sales data and prepare report for stakeholders by Friday.,2025-09-07 22:25:59.627850,2025-09-08 22:25:59.627850,diana,charlie,2,12,121,1.78,done,1,0
+29,Research new lib,Write unit tests for payment module to improve coverage.,2025-08-23 22:25:59.627850,2025-08-30 22:25:59.627850,charlie,bob,1,1,153,3.81,open,7,1
+30,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-17 22:25:59.627850,2025-09-05 22:25:59.627850,diana,bob,0,1,135,0.86,open,19,1
+31,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-18 22:25:59.627850,2025-08-26 22:25:59.627850,diana,alice,0,6,68,3.11,open,8,1
+32,Plan sprint,Create responsive landing page for product X using Figma mockups.,2025-09-09 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,charlie,0,2,176,3.72,open,19,1
+33,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-08-22 22:25:59.627850,2025-09-01 22:25:59.627850,diana,charlie,0,12,23,0.54,done,10,0
+34,Plan sprint,Create responsive landing page for product X using Figma mockups.,2025-08-18 22:25:59.627850,2025-09-05 22:25:59.627850,bob,charlie,0,2,94,4.46,open,18,1
+35,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-08-24 22:25:59.627850,2025-09-08 22:25:59.627850,charlie,alice,0,8,146,1.85,done,15,0
+36,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-30 22:25:59.627850,2025-09-03 22:25:59.627850,alice,bob,1,3,77,3.22,done,4,0
+37,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-09-26 22:25:59.627850,2025-10-05 22:25:59.627850,diana,charlie,0,12,18,0.92,in_progress,9,1
+38,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-14 22:25:59.627850,2025-08-25 22:25:59.627850,bob,charlie,0,2,194,2.49,done,11,0
+39,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-08-14 22:25:59.627850,2025-08-18 22:25:59.627850,alice,bob,1,6,14,4.26,done,4,0
+40,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-09-10 22:25:59.627850,2025-09-15 22:25:59.627850,alice,charlie,1,3,15,4.55,open,5,1
+41,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-09-05 22:25:59.627850,2025-09-23 22:25:59.627850,diana,bob,2,2,46,4.89,open,18,1
+42,Optimize DB queries,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-25 22:25:59.627850,2025-09-05 22:25:59.627850,diana,bob,0,3,45,4.04,open,11,1
+43,Optimize DB queries,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-07 22:25:59.627850,2025-10-23 22:25:59.627850,bob,bob,0,12,122,2.07,open,16,0
+44,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-25 22:25:59.627850,2025-10-02 22:25:59.627850,diana,charlie,2,3,22,4.85,in_progress,7,1
+45,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-09-08 22:25:59.627850,2025-09-26 22:25:59.627850,charlie,alice,0,1,71,1.3,in_progress,18,1
+46,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-09-21 22:25:59.627850,2025-10-05 22:25:59.627850,charlie,charlie,2,4,160,4.93,open,14,1
+47,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-26 22:25:59.627850,2025-09-04 22:25:59.627850,alice,diana,0,1,138,4.67,done,9,0
+48,Deploy microservice,Respond to important client email about billing dispute.,2025-09-10 22:25:59.627850,2025-09-13 22:25:59.627850,charlie,charlie,2,8,36,3.74,in_progress,3,1
+49,Research new lib,Update package.json dependencies and run compatibility tests.,2025-09-25 22:25:59.627850,2025-10-09 22:25:59.627850,charlie,diana,0,8,80,2.99,open,14,1
+50,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-26 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,diana,1,6,5,1.87,open,6,1
+51,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-21 22:25:59.627850,2025-10-02 22:25:59.627850,diana,diana,0,4,177,1.46,in_progress,11,1
+52,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-09-01 22:25:59.627850,2025-09-18 22:25:59.627850,charlie,alice,0,12,197,1.56,in_progress,17,1
+53,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-08-23 22:25:59.627850,2025-08-24 22:25:59.627850,alice,bob,2,4,161,4.32,open,1,1
+54,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-10-09 22:25:59.627850,2025-10-28 22:25:59.627850,bob,diana,0,4,107,1.6,done,19,0
+55,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-10-02 22:25:59.627850,2025-10-16 22:25:59.627850,bob,bob,2,12,183,2.83,open,14,0
+56,Research new lib,Deploy new service to production cluster and monitor for errors.,2025-10-11 22:25:59.627850,2025-10-15 22:25:59.627850,diana,bob,1,12,123,3.5,done,4,0
+57,Plan sprint,Respond to important client email about billing dispute.,2025-10-13 22:25:59.627850,2025-10-28 22:25:59.627850,diana,diana,0,2,195,4.38,in_progress,15,0
+58,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-10-06 22:25:59.627850,2025-10-15 22:25:59.627850,diana,bob,0,3,117,0.85,in_progress,9,0
+59,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-09-04 22:25:59.627850,2025-09-15 22:25:59.627850,alice,bob,2,2,64,2.22,open,11,1
+60,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-09-09 22:25:59.627850,2025-09-23 22:25:59.627850,charlie,diana,2,4,20,1.43,in_progress,14,1
+61,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-13 22:25:59.627850,2025-10-14 22:25:59.627850,diana,diana,2,1,95,1.84,in_progress,1,0
+62,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-09-30 22:25:59.627850,2025-10-18 22:25:59.627850,bob,diana,0,2,74,2.46,open,18,0
+63,Optimize DB queries,Respond to important client email about billing dispute.,2025-09-25 22:25:59.627850,2025-10-08 22:25:59.627850,bob,diana,0,2,164,2.9,in_progress,13,1
+64,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-25 22:25:59.627850,2025-09-26 22:25:59.627850,alice,diana,2,2,123,1.32,in_progress,1,1
+65,Optimize DB queries,Respond to important client email about billing dispute.,2025-08-27 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,charlie,0,12,102,1.75,in_progress,15,1
+66,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-13 22:25:59.627850,2025-09-14 22:25:59.627850,alice,charlie,2,2,171,0.81,done,1,0
+67,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-13 22:25:59.627850,2025-10-21 22:25:59.627850,bob,alice,2,6,44,1.57,in_progress,8,0
+68,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-13 22:25:59.627850,2025-10-20 22:25:59.627850,diana,charlie,1,12,99,1.26,done,7,0
+69,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-09-02 22:25:59.627850,2025-09-06 22:25:59.627850,alice,charlie,1,6,178,4.59,in_progress,4,1
+70,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-08-18 22:25:59.627850,2025-09-06 22:25:59.627850,bob,alice,0,8,82,4.33,done,19,0
+71,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-03 22:25:59.627850,2025-10-05 22:25:59.627850,charlie,diana,2,8,99,0.81,done,2,0
+72,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-07 22:25:59.627850,2025-10-21 22:25:59.627850,diana,alice,0,4,97,3.36,in_progress,14,0
+73,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-08-25 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,diana,0,4,116,4.22,done,17,0
+74,Update dependencies,Respond to important client email about billing dispute.,2025-10-07 22:25:59.627850,2025-10-15 22:25:59.627850,alice,charlie,0,4,67,3.88,done,8,0
+75,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-09-04 22:25:59.627850,2025-09-05 22:25:59.627850,diana,charlie,2,2,129,1.45,in_progress,1,1
+76,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-10-09 22:25:59.627850,2025-10-29 22:25:59.627850,charlie,alice,0,6,53,0.89,done,20,0
+77,Optimize DB queries,Write unit tests for payment module to improve coverage.,2025-09-18 22:25:59.627850,2025-09-26 22:25:59.627850,diana,diana,0,4,9,0.92,open,8,1
+78,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-09-02 22:25:59.627850,2025-09-21 22:25:59.627850,charlie,diana,0,6,140,2.05,done,19,0
+79,Research new lib,Respond to important client email about billing dispute.,2025-09-05 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,charlie,0,3,64,1.04,open,15,1
+80,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-09-30 22:25:59.627850,2025-10-18 22:25:59.627850,bob,bob,0,2,194,2.68,done,18,0
+81,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-09-21 22:25:59.627850,2025-10-01 22:25:59.627850,alice,bob,0,3,63,2.12,in_progress,10,1
+82,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-08-22 22:25:59.627850,2025-08-31 22:25:59.627850,alice,alice,2,6,79,3.64,open,9,1
+83,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-10-08 22:25:59.627850,2025-10-09 22:25:59.627850,charlie,diana,2,4,117,2.03,open,1,1
+84,Update dependencies,Write unit tests for payment module to improve coverage.,2025-08-21 22:25:59.627850,2025-08-24 22:25:59.627850,diana,diana,2,1,152,3.33,open,3,1
+85,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-10-04 22:25:59.627850,2025-10-23 22:25:59.627850,charlie,alice,0,2,35,3.01,in_progress,19,0
+86,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-03 22:25:59.627850,2025-10-23 22:25:59.627850,bob,diana,0,4,118,1.84,done,20,0
+87,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-09-19 22:25:59.627850,2025-10-09 22:25:59.627850,alice,alice,0,12,58,3.31,in_progress,20,1
+88,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-29 22:25:59.627850,2025-09-04 22:25:59.627850,alice,bob,1,1,109,2.53,done,6,0
+89,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-08-16 22:25:59.627850,2025-08-24 22:25:59.627850,charlie,charlie,0,8,121,0.82,open,8,1
+90,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-25 22:25:59.627850,2025-10-02 22:25:59.627850,diana,alice,1,6,62,3.41,in_progress,7,1
+91,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-08-17 22:25:59.627850,2025-08-23 22:25:59.627850,charlie,charlie,1,4,36,2.61,in_progress,6,1
+92,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-09-15 22:25:59.627850,2025-10-03 22:25:59.627850,diana,diana,0,1,158,0.68,in_progress,18,1
+93,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-30 22:25:59.627850,2025-08-31 22:25:59.627850,alice,bob,2,8,152,3.14,open,1,1
+94,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-16 22:25:59.627850,2025-08-22 22:25:59.627850,diana,diana,1,3,51,4.99,in_progress,6,1
+95,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-13 22:25:59.627850,2025-09-25 22:25:59.627850,diana,charlie,0,3,176,0.97,open,12,1
+96,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-27 22:25:59.627850,2025-10-13 22:25:59.627850,charlie,diana,0,12,199,2.98,in_progress,16,1
+97,Design landing page,Respond to important client email about billing dispute.,2025-08-30 22:25:59.627850,2025-09-10 22:25:59.627850,alice,diana,0,12,136,4.21,open,11,1
+98,Research new lib,Write unit tests for payment module to improve coverage.,2025-09-09 22:25:59.627850,2025-09-11 22:25:59.627850,bob,charlie,2,6,198,2.74,in_progress,2,1
+99,Fix login bug,Deploy new service to production cluster and monitor for errors.,2025-08-31 22:25:59.627850,2025-09-18 22:25:59.627850,bob,charlie,2,4,183,2.68,open,18,1
+100,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-28 22:25:59.627850,2025-10-04 22:25:59.627850,charlie,alice,1,6,109,0.92,open,6,1
+101,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-24 22:25:59.627850,2025-09-29 22:25:59.627850,diana,charlie,1,6,185,1.73,in_progress,5,1
+102,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-09-12 22:25:59.627850,2025-09-30 22:25:59.627850,bob,diana,0,2,158,2.79,open,18,1
+103,Design landing page,Update package.json dependencies and run compatibility tests.,2025-10-02 22:25:59.627850,2025-10-16 22:25:59.627850,charlie,charlie,0,12,5,1.77,in_progress,14,0
+104,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-25 22:25:59.627850,2025-10-11 22:25:59.627850,bob,diana,0,6,128,2.05,done,16,0
+105,Research new lib,Optimize slow queries causing high CPU usage on replica DB.,2025-09-12 22:25:59.627850,2025-09-23 22:25:59.627850,bob,bob,0,6,103,1.55,in_progress,11,1
+106,Fix login bug,Respond to important client email about billing dispute.,2025-09-30 22:25:59.627850,2025-10-16 22:25:59.627850,diana,diana,2,8,171,4.91,in_progress,16,0
+107,Fix login bug,Gather sales data and prepare report for stakeholders by Friday.,2025-09-15 22:25:59.627850,2025-10-04 22:25:59.627850,charlie,alice,2,12,117,0.95,in_progress,19,1
+108,Fix login bug,Gather sales data and prepare report for stakeholders by Friday.,2025-09-09 22:25:59.627850,2025-09-14 22:25:59.627850,alice,diana,2,12,72,2.02,done,5,0
+109,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-10-07 22:25:59.627850,2025-10-18 22:25:59.627850,diana,charlie,0,8,188,4.49,in_progress,11,0
+110,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-22 22:25:59.627850,2025-09-25 22:25:59.627850,bob,charlie,2,2,196,0.91,open,3,1
+111,Design landing page,Write unit tests for payment module to improve coverage.,2025-08-24 22:25:59.627850,2025-09-03 22:25:59.627850,alice,alice,0,3,19,1.82,in_progress,10,1
+112,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-08-29 22:25:59.627850,2025-09-15 22:25:59.627850,diana,bob,0,2,49,0.86,in_progress,17,1
+113,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-14 22:25:59.627850,2025-10-03 22:25:59.627850,bob,bob,0,4,168,1.64,in_progress,19,1
+114,Fix login bug,Write unit tests for payment module to improve coverage.,2025-10-10 22:25:59.627850,2025-10-20 22:25:59.627850,bob,alice,2,4,93,4.94,in_progress,10,0
+115,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-09-12 22:25:59.627850,2025-09-22 22:25:59.627850,bob,diana,0,12,128,0.98,in_progress,10,1
+116,Plan sprint,Respond to important client email about billing dispute.,2025-09-19 22:25:59.627850,2025-09-29 22:25:59.627850,charlie,alice,0,12,173,2.28,open,10,1
+117,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-11 22:25:59.627850,2025-10-31 22:25:59.627850,diana,charlie,0,12,63,3.23,in_progress,20,0
+118,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-09-22 22:25:59.627850,2025-10-01 22:25:59.627850,bob,alice,2,8,170,0.68,in_progress,9,1
+119,Fix login bug,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-06 22:25:59.627850,2025-09-11 22:25:59.627850,alice,charlie,2,3,196,2.37,open,5,1
+120,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-10-09 22:25:59.627850,2025-10-21 22:25:59.627850,charlie,bob,0,3,128,4.85,in_progress,12,0
+121,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-09-12 22:25:59.627850,2025-09-15 22:25:59.627850,bob,bob,2,12,178,3.76,in_progress,3,1
+122,Research new lib,Respond to important client email about billing dispute.,2025-08-19 22:25:59.627850,2025-09-01 22:25:59.627850,alice,charlie,0,6,36,2.55,done,13,0
+123,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-07 22:25:59.627850,2025-09-19 22:25:59.627850,alice,bob,0,4,11,3.29,done,12,0
+124,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-28 22:25:59.627850,2025-08-31 22:25:59.627850,diana,charlie,2,8,109,1.03,open,3,1
+125,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-09-14 22:25:59.627850,2025-09-18 22:25:59.627850,alice,bob,2,6,39,2.25,in_progress,4,1
+126,Research new lib,Optimize slow queries causing high CPU usage on replica DB.,2025-09-20 22:25:59.627850,2025-09-25 22:25:59.627850,diana,alice,1,12,130,3.27,in_progress,5,1
+127,Fix login bug,Respond to important client email about billing dispute.,2025-08-27 22:25:59.627850,2025-09-11 22:25:59.627850,diana,bob,2,12,97,0.95,done,15,0
+128,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-10-10 22:25:59.627850,2025-10-22 22:25:59.627850,alice,diana,0,3,53,4.86,in_progress,12,0
+129,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-09-24 22:25:59.627850,2025-10-14 22:25:59.627850,alice,alice,0,12,90,1.6,open,20,0
+130,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-08-18 22:25:59.627850,2025-09-05 22:25:59.627850,bob,bob,0,12,64,1.98,open,18,1
+131,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-31 22:25:59.627850,2025-09-05 22:25:59.627850,bob,charlie,1,12,49,0.99,open,5,1
+132,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-05 22:25:59.627850,2025-09-13 22:25:59.627850,charlie,alice,0,2,72,0.74,done,8,0
+133,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-08-21 22:25:59.627850,2025-08-24 22:25:59.627850,diana,diana,2,12,97,2.81,open,3,1
+134,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-08-28 22:25:59.627850,2025-09-17 22:25:59.627850,alice,charlie,0,4,169,4.84,open,20,1
+135,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-09-10 22:25:59.627850,2025-09-14 22:25:59.627850,diana,diana,1,1,25,1.95,open,4,1
+136,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-31 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,diana,0,6,140,1.83,done,20,0
+137,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-08-20 22:25:59.627850,2025-08-24 22:25:59.627850,bob,diana,1,4,63,2.36,in_progress,4,1
+138,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-29 22:25:59.627850,2025-10-03 22:25:59.627850,charlie,diana,1,3,175,1.65,open,4,1
+139,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-08-19 22:25:59.627850,2025-08-22 22:25:59.627850,alice,diana,2,1,195,3.82,open,3,1
+140,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-20 22:25:59.627850,2025-10-08 22:25:59.627850,charlie,alice,0,4,95,4.43,in_progress,18,1
+141,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-09-21 22:25:59.627850,2025-10-01 22:25:59.627850,charlie,alice,2,6,134,1.46,done,10,0
+142,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-10-07 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,charlie,1,1,200,1.75,open,4,1
+143,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-10-02 22:25:59.627850,2025-10-22 22:25:59.627850,alice,charlie,0,1,51,1.73,in_progress,20,0
+144,Customer email reply,Respond to important client email about billing dispute.,2025-08-14 22:25:59.627850,2025-08-20 22:25:59.627850,bob,diana,1,1,41,3.83,open,6,1
+145,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-08-27 22:25:59.627850,2025-09-09 22:25:59.627850,diana,diana,0,3,45,2.17,done,13,0
+146,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-21 22:25:59.627850,2025-09-24 22:25:59.627850,alice,bob,2,2,198,3.28,done,3,0
+147,Design landing page,Update package.json dependencies and run compatibility tests.,2025-09-11 22:25:59.627850,2025-09-25 22:25:59.627850,diana,diana,0,4,74,1.47,done,14,0
+148,Design landing page,Respond to important client email about billing dispute.,2025-09-10 22:25:59.627850,2025-09-14 22:25:59.627850,charlie,diana,1,6,175,1.89,open,4,1
+149,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-17 22:25:59.627850,2025-08-18 22:25:59.627850,bob,charlie,2,2,40,3.94,in_progress,1,1
+150,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-08-14 22:25:59.627850,2025-08-30 22:25:59.627850,diana,bob,0,2,102,2.9,open,16,1
+151,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-10-06 22:25:59.627850,2025-10-18 22:25:59.627850,alice,diana,0,12,194,0.69,open,12,0
+152,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-10-08 22:25:59.627850,2025-10-19 22:25:59.627850,diana,diana,0,8,168,2.38,open,11,0
+153,Optimize DB queries,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-03 22:25:59.627850,2025-09-09 22:25:59.627850,diana,charlie,1,1,116,4.3,open,6,1
+154,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-08 22:25:59.627850,2025-09-25 22:25:59.627850,alice,diana,0,12,84,3.86,open,17,1
+155,Customer email reply,Gather sales data and prepare report for stakeholders by Friday.,2025-08-18 22:25:59.627850,2025-09-04 22:25:59.627850,alice,bob,0,12,94,2.08,done,17,0
+156,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-08-20 22:25:59.627850,2025-08-25 22:25:59.627850,charlie,bob,1,2,159,1.19,done,5,0
+157,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-10-13 22:25:59.627850,2025-10-29 22:25:59.627850,diana,diana,0,8,149,3.39,done,16,0
+158,Customer email reply,Respond to important client email about billing dispute.,2025-08-23 22:25:59.627850,2025-09-07 22:25:59.627850,alice,diana,0,4,166,1.86,in_progress,15,1
+159,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-05 22:25:59.627850,2025-09-22 22:25:59.627850,alice,charlie,0,4,120,0.67,in_progress,17,1
+160,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-24 22:25:59.627850,2025-09-27 22:25:59.627850,diana,diana,2,6,146,4.79,done,3,0
+161,Fix login bug,Write unit tests for payment module to improve coverage.,2025-10-11 22:25:59.627850,2025-10-30 22:25:59.627850,bob,charlie,2,6,126,2.76,open,19,0
+162,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-10-04 22:25:59.627850,2025-10-15 22:25:59.627850,alice,bob,0,1,68,3.68,in_progress,11,0
+163,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-09-22 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,charlie,1,3,104,2.34,in_progress,6,1
+164,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-03 22:25:59.627850,2025-10-14 22:25:59.627850,alice,charlie,0,1,147,3.55,in_progress,11,0
+165,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-08 22:25:59.627850,2025-10-13 22:25:59.627850,charlie,alice,1,6,174,1.14,in_progress,5,1
+166,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-08-22 22:25:59.627850,2025-09-11 22:25:59.627850,alice,charlie,0,6,101,3.4,in_progress,20,1
+167,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-08-19 22:25:59.627850,2025-09-02 22:25:59.627850,charlie,alice,0,3,84,1.31,open,14,1
+168,Customer email reply,Write unit tests for payment module to improve coverage.,2025-08-26 22:25:59.627850,2025-09-03 22:25:59.627850,bob,bob,0,1,80,4.3,open,8,1
+169,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-10-06 22:25:59.627850,2025-10-23 22:25:59.627850,alice,charlie,0,12,163,1.09,in_progress,17,0
+170,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-08-25 22:25:59.627850,2025-09-14 22:25:59.627850,bob,diana,0,1,110,2.14,done,20,0
+171,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-09-22 22:25:59.627850,2025-10-02 22:25:59.627850,diana,bob,2,6,66,1.89,in_progress,10,1
+172,Deploy microservice,Respond to important client email about billing dispute.,2025-09-26 22:25:59.627850,2025-10-15 22:25:59.627850,diana,diana,2,12,77,4.0,done,19,0
+173,Research new lib,Optimize slow queries causing high CPU usage on replica DB.,2025-08-24 22:25:59.627850,2025-08-31 22:25:59.627850,bob,charlie,1,1,169,2.66,in_progress,7,1
+174,Research new lib,Create responsive landing page for product X using Figma mockups.,2025-09-28 22:25:59.627850,2025-10-15 22:25:59.627850,alice,charlie,0,1,200,1.22,in_progress,17,0
+175,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-10-06 22:25:59.627850,2025-10-20 22:25:59.627850,alice,bob,0,12,120,4.48,open,14,0
+176,Optimize DB queries,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-08 22:25:59.627850,2025-09-25 22:25:59.627850,charlie,bob,0,4,25,2.19,open,17,1
+177,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-10-06 22:25:59.627850,2025-10-17 22:25:59.627850,bob,bob,0,1,78,4.63,in_progress,11,0
+178,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-09-11 22:25:59.627850,2025-10-01 22:25:59.627850,alice,alice,0,1,70,1.47,open,20,1
+179,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-16 22:25:59.627850,2025-09-30 22:25:59.627850,alice,charlie,0,2,82,1.05,open,14,1
+180,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-12 22:25:59.627850,2025-09-15 22:25:59.627850,alice,diana,2,6,142,0.57,done,3,0
+181,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-28 22:25:59.627850,2025-10-03 22:25:59.627850,charlie,diana,1,1,162,2.09,done,5,0
+182,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-09-25 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,alice,2,6,144,2.78,done,3,0
+183,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-07 22:25:59.627850,2025-09-23 22:25:59.627850,alice,diana,0,3,69,3.86,in_progress,16,1
+184,Design landing page,Respond to important client email about billing dispute.,2025-08-29 22:25:59.627850,2025-09-02 22:25:59.627850,charlie,bob,1,1,95,2.96,done,4,0
+185,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-09-27 22:25:59.627850,2025-10-13 22:25:59.627850,bob,bob,0,1,188,3.99,in_progress,16,1
+186,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-08-26 22:25:59.627850,2025-08-28 22:25:59.627850,bob,alice,2,3,84,2.82,done,2,0
+187,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-08-16 22:25:59.627850,2025-08-23 22:25:59.627850,charlie,charlie,1,12,17,4.4,in_progress,7,1
+188,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-10-04 22:25:59.627850,2025-10-16 22:25:59.627850,diana,diana,0,8,117,4.53,in_progress,12,0
+189,Customer email reply,Gather sales data and prepare report for stakeholders by Friday.,2025-09-14 22:25:59.627850,2025-09-30 22:25:59.627850,charlie,charlie,0,12,26,3.77,open,16,1
+190,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-05 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,charlie,1,1,25,1.98,in_progress,6,1
+191,Update dependencies,Write unit tests for payment module to improve coverage.,2025-09-21 22:25:59.627850,2025-10-05 22:25:59.627850,bob,diana,0,3,119,0.69,in_progress,14,1
+192,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-08-31 22:25:59.627850,2025-09-02 22:25:59.627850,alice,diana,2,3,136,4.1,done,2,0
+193,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-23 22:25:59.627850,2025-09-12 22:25:59.627850,diana,alice,0,2,22,1.56,done,20,0
+194,Customer email reply,Respond to important client email about billing dispute.,2025-09-07 22:25:59.627850,2025-09-26 22:25:59.627850,alice,bob,0,8,120,4.77,in_progress,19,1
+195,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-19 22:25:59.627850,2025-09-24 22:25:59.627850,charlie,diana,1,3,171,1.75,open,5,1
+196,Fix login bug,Gather sales data and prepare report for stakeholders by Friday.,2025-09-14 22:25:59.627850,2025-10-01 22:25:59.627850,diana,alice,2,3,71,3.67,open,17,1
+197,Plan sprint,Update package.json dependencies and run compatibility tests.,2025-09-27 22:25:59.627850,2025-10-13 22:25:59.627850,bob,alice,0,2,23,2.53,done,16,0
+198,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-10-04 22:25:59.627850,2025-10-15 22:25:59.627850,charlie,alice,0,6,143,1.81,in_progress,11,0
+199,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-10-03 22:25:59.627850,2025-10-15 22:25:59.627850,bob,alice,0,2,40,1.57,in_progress,12,0
+200,Fix login bug,Respond to important client email about billing dispute.,2025-09-18 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,diana,2,12,146,1.08,open,19,1
+201,Design landing page,Update package.json dependencies and run compatibility tests.,2025-09-08 22:25:59.627850,2025-09-24 22:25:59.627850,diana,diana,0,12,152,0.83,in_progress,16,1
+202,Design landing page,Write unit tests for payment module to improve coverage.,2025-09-12 22:25:59.627850,2025-09-29 22:25:59.627850,charlie,bob,0,12,146,3.38,open,17,1
+203,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-09-15 22:25:59.627850,2025-09-17 22:25:59.627850,alice,bob,2,3,47,1.23,done,2,0
+204,Deploy microservice,Respond to important client email about billing dispute.,2025-10-13 22:25:59.627850,2025-10-30 22:25:59.627850,charlie,alice,2,3,55,3.36,done,17,0
+205,Update dependencies,Gather sales data and prepare report for stakeholders by Friday.,2025-09-23 22:25:59.627850,2025-10-03 22:25:59.627850,alice,bob,0,6,153,1.19,done,10,0
+206,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-04 22:25:59.627850,2025-09-23 22:25:59.627850,alice,alice,0,1,16,4.77,done,19,0
+207,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-10-02 22:25:59.627850,2025-10-21 22:25:59.627850,diana,alice,0,4,165,2.96,done,19,0
+208,Update dependencies,Write unit tests for payment module to improve coverage.,2025-08-29 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,diana,0,1,181,0.77,in_progress,13,1
+209,Optimize DB queries,Write unit tests for payment module to improve coverage.,2025-09-12 22:25:59.627850,2025-09-19 22:25:59.627850,charlie,bob,1,3,188,1.94,in_progress,7,1
+210,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-10-01 22:25:59.627850,2025-10-13 22:25:59.627850,alice,charlie,0,2,124,1.05,in_progress,12,1
+211,Deploy microservice,Gather sales data and prepare report for stakeholders by Friday.,2025-08-20 22:25:59.627850,2025-08-22 22:25:59.627850,charlie,diana,2,12,162,2.38,open,2,1
+212,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-29 22:25:59.627850,2025-10-10 22:25:59.627850,bob,bob,0,4,136,2.6,in_progress,11,1
+213,Write unit tests,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-19 22:25:59.627850,2025-09-01 22:25:59.627850,diana,bob,0,2,154,2.09,open,13,1
+214,Update dependencies,Write unit tests for payment module to improve coverage.,2025-09-21 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,alice,0,12,32,2.44,in_progress,16,1
+215,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-06 22:25:59.627850,2025-09-08 22:25:59.627850,diana,alice,2,6,148,1.38,done,2,0
+216,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-07 22:25:59.627850,2025-09-24 22:25:59.627850,diana,charlie,0,12,164,3.56,open,17,1
+217,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-09-08 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,charlie,0,12,41,1.4,done,12,0
+218,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-08-16 22:25:59.627850,2025-08-18 22:25:59.627850,alice,bob,2,8,90,4.12,done,2,0
+219,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-09-21 22:25:59.627850,2025-10-08 22:25:59.627850,bob,charlie,0,6,86,1.23,done,17,0
+220,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-04 22:25:59.627850,2025-09-21 22:25:59.627850,diana,charlie,0,4,9,2.16,done,17,0
+221,Design landing page,Optimize slow queries causing high CPU usage on replica DB.,2025-09-20 22:25:59.627850,2025-09-30 22:25:59.627850,alice,diana,0,3,172,4.02,done,10,0
+222,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-29 22:25:59.627850,2025-10-01 22:25:59.627850,diana,bob,2,6,166,3.75,in_progress,2,1
+223,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-08-16 22:25:59.627850,2025-09-04 22:25:59.627850,alice,bob,0,1,117,1.91,open,19,1
+224,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-09-09 22:25:59.627850,2025-09-26 22:25:59.627850,diana,alice,0,8,40,2.83,done,17,0
+225,Customer email reply,Write unit tests for payment module to improve coverage.,2025-09-16 22:25:59.627850,2025-09-29 22:25:59.627850,charlie,bob,0,4,141,2.04,in_progress,13,1
+226,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-13 22:25:59.627850,2025-09-20 22:25:59.627850,bob,charlie,1,6,81,1.51,in_progress,7,1
+227,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-09-27 22:25:59.627850,2025-10-13 22:25:59.627850,charlie,diana,0,3,148,4.7,done,16,0
+228,Update dependencies,Update package.json dependencies and run compatibility tests.,2025-08-21 22:25:59.627850,2025-09-09 22:25:59.627850,diana,diana,0,12,93,4.8,open,19,1
+229,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-01 22:25:59.627850,2025-09-04 22:25:59.627850,charlie,diana,2,8,70,3.86,open,3,1
+230,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-08-31 22:25:59.627850,2025-09-18 22:25:59.627850,charlie,bob,2,1,162,3.83,open,18,1
+231,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-25 22:25:59.627850,2025-10-12 22:25:59.627850,bob,bob,2,1,30,2.36,done,17,0
+232,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-26 22:25:59.627850,2025-10-01 22:25:59.627850,alice,bob,1,4,172,4.71,in_progress,5,1
+233,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-10-01 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,charlie,0,8,20,4.59,open,10,1
+234,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-17 22:25:59.627850,2025-09-19 22:25:59.627850,bob,diana,2,12,50,4.7,open,2,1
+235,Optimize DB queries,Write unit tests for payment module to improve coverage.,2025-08-25 22:25:59.627850,2025-09-04 22:25:59.627850,alice,alice,0,3,150,3.21,in_progress,10,1
+236,Update dependencies,Write unit tests for payment module to improve coverage.,2025-09-24 22:25:59.627850,2025-10-12 22:25:59.627850,diana,bob,0,12,134,2.61,open,18,1
+237,Design landing page,Respond to important client email about billing dispute.,2025-08-24 22:25:59.627850,2025-09-08 22:25:59.627850,charlie,bob,0,1,193,2.02,in_progress,15,1
+238,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-08-25 22:25:59.627850,2025-09-14 22:25:59.627850,diana,diana,0,6,88,0.89,done,20,0
+239,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-22 22:25:59.627850,2025-09-07 22:25:59.627850,charlie,bob,0,1,71,2.23,in_progress,16,1
+240,Update dependencies,Respond to important client email about billing dispute.,2025-09-02 22:25:59.627850,2025-09-21 22:25:59.627850,alice,charlie,0,8,97,3.62,open,19,1
+241,Design landing page,Write unit tests for payment module to improve coverage.,2025-09-02 22:25:59.627850,2025-09-08 22:25:59.627850,diana,charlie,1,8,35,3.37,in_progress,6,1
+242,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-28 22:25:59.627850,2025-09-05 22:25:59.627850,bob,diana,0,2,121,3.86,done,8,0
+243,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-27 22:25:59.627850,2025-10-15 22:25:59.627850,diana,bob,0,12,68,3.56,done,18,0
+244,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-09-11 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,alice,0,6,33,0.78,done,17,0
+245,Research new lib,Deploy new service to production cluster and monitor for errors.,2025-09-19 22:25:59.627850,2025-10-07 22:25:59.627850,bob,bob,0,3,138,2.49,done,18,0
+246,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-14 22:25:59.627850,2025-09-17 22:25:59.627850,diana,alice,2,4,38,2.81,in_progress,3,1
+247,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-18 22:25:59.627850,2025-10-03 22:25:59.627850,charlie,alice,0,4,70,4.17,done,15,0
+248,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-18 22:25:59.627850,2025-08-20 22:25:59.627850,diana,charlie,2,8,21,2.94,open,2,1
+249,Design landing page,Write unit tests for payment module to improve coverage.,2025-08-16 22:25:59.627850,2025-08-26 22:25:59.627850,diana,bob,0,12,39,3.95,done,10,0
+250,Optimize DB queries,Respond to important client email about billing dispute.,2025-10-10 22:25:59.627850,2025-10-23 22:25:59.627850,diana,diana,0,4,25,3.57,done,13,0
+251,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-09-24 22:25:59.627850,2025-10-06 22:25:59.627850,alice,bob,0,6,105,2.88,done,12,0
+252,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-01 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,diana,2,8,189,2.95,done,1,0
+253,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-08-29 22:25:59.627850,2025-09-13 22:25:59.627850,charlie,bob,0,3,53,4.72,done,15,0
+254,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-04 22:25:59.627850,2025-10-18 22:25:59.627850,alice,bob,0,2,22,0.95,open,14,0
+255,Write unit tests,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-26 22:25:59.627850,2025-09-28 22:25:59.627850,bob,alice,2,4,117,1.55,open,2,1
+256,Fix login bug,Gather sales data and prepare report for stakeholders by Friday.,2025-09-15 22:25:59.627850,2025-09-25 22:25:59.627850,bob,charlie,2,6,158,3.98,in_progress,10,1
+257,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-10-09 22:25:59.627850,2025-10-14 22:25:59.627850,bob,diana,2,3,75,0.77,done,5,0
+258,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-09-18 22:25:59.627850,2025-10-04 22:25:59.627850,alice,charlie,0,8,176,2.22,done,16,0
+259,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-09 22:25:59.627850,2025-09-14 22:25:59.627850,charlie,diana,1,2,198,2.92,open,5,1
+260,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-10-07 22:25:59.627850,2025-10-12 22:25:59.627850,diana,alice,2,6,110,4.86,done,5,0
+261,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-09-07 22:25:59.627850,2025-09-15 22:25:59.627850,charlie,bob,0,3,170,0.86,in_progress,8,1
+262,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-09-17 22:25:59.627850,2025-09-24 22:25:59.627850,alice,charlie,1,4,177,3.22,open,7,1
+263,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-10-04 22:25:59.627850,2025-10-23 22:25:59.627850,bob,diana,0,2,90,1.86,open,19,0
+264,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-09-30 22:25:59.627850,2025-10-04 22:25:59.627850,diana,bob,2,8,159,3.67,in_progress,4,1
+265,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-09-03 22:25:59.627850,2025-09-13 22:25:59.627850,diana,diana,2,6,171,2.12,in_progress,10,1
+266,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-10-09 22:25:59.627850,2025-10-25 22:25:59.627850,diana,alice,0,12,189,2.61,in_progress,16,0
+267,Deploy microservice,Respond to important client email about billing dispute.,2025-09-03 22:25:59.627850,2025-09-17 22:25:59.627850,alice,bob,2,8,42,0.57,done,14,0
+268,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-29 22:25:59.627850,2025-10-13 22:25:59.627850,charlie,bob,0,2,89,1.54,done,14,0
+269,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-09-18 22:25:59.627850,2025-09-29 22:25:59.627850,charlie,diana,2,8,169,3.83,in_progress,11,1
+270,Prepare monthly report,Respond to important client email about billing dispute.,2025-08-24 22:25:59.627850,2025-08-29 22:25:59.627850,diana,bob,1,6,169,4.81,done,5,0
+271,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-10-13 22:25:59.627850,2025-10-15 22:25:59.627850,alice,diana,2,2,166,1.54,done,2,0
+272,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-27 22:25:59.627850,2025-09-13 22:25:59.627850,diana,charlie,0,1,163,3.37,done,17,0
+273,Write unit tests,Write unit tests for payment module to improve coverage.,2025-08-15 22:25:59.627850,2025-08-16 22:25:59.627850,diana,alice,2,1,140,3.75,done,1,0
+274,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-15 22:25:59.627850,2025-09-29 22:25:59.627850,bob,alice,0,1,139,1.17,open,14,1
+275,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-08-30 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,diana,0,1,100,4.82,in_progress,12,1
+276,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-27 22:25:59.627850,2025-10-05 22:25:59.627850,charlie,alice,0,8,171,3.92,open,8,1
+277,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-07 22:25:59.627850,2025-09-25 22:25:59.627850,diana,alice,0,8,7,3.66,open,18,1
+278,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-09-24 22:25:59.627850,2025-10-05 22:25:59.627850,alice,alice,0,2,59,4.56,done,11,0
+279,Plan sprint,Write unit tests for payment module to improve coverage.,2025-08-31 22:25:59.627850,2025-09-02 22:25:59.627850,alice,charlie,2,6,149,3.46,open,2,1
+280,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-27 22:25:59.627850,2025-09-15 22:25:59.627850,bob,diana,0,1,81,1.23,open,19,1
+281,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-09-26 22:25:59.627850,2025-10-14 22:25:59.627850,charlie,diana,0,12,194,1.13,done,18,0
+282,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-09-30 22:25:59.627850,2025-10-12 22:25:59.627850,alice,alice,0,4,64,4.27,in_progress,12,1
+283,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-21 22:25:59.627850,2025-10-04 22:25:59.627850,charlie,alice,0,8,74,4.03,in_progress,13,1
+284,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-09-05 22:25:59.627850,2025-09-23 22:25:59.627850,diana,diana,0,2,179,3.14,in_progress,18,1
+285,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-01 22:25:59.627850,2025-09-09 22:25:59.627850,alice,alice,0,3,44,2.21,done,8,0
+286,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-09-03 22:25:59.627850,2025-09-15 22:25:59.627850,alice,alice,0,1,83,2.5,in_progress,12,1
+287,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-19 22:25:59.627850,2025-08-25 22:25:59.627850,diana,diana,1,6,147,2.81,open,6,1
+288,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-09-05 22:25:59.627850,2025-09-23 22:25:59.627850,alice,charlie,2,12,103,0.56,in_progress,18,1
+289,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-09-29 22:25:59.627850,2025-10-17 22:25:59.627850,bob,bob,0,8,102,1.26,in_progress,18,0
+290,Update dependencies,Update package.json dependencies and run compatibility tests.,2025-09-14 22:25:59.627850,2025-09-19 22:25:59.627850,alice,bob,1,4,75,2.39,in_progress,5,1
+291,Design landing page,Respond to important client email about billing dispute.,2025-08-30 22:25:59.627850,2025-09-07 22:25:59.627850,diana,bob,0,4,32,1.11,open,8,1
+292,Optimize DB queries,Respond to important client email about billing dispute.,2025-10-06 22:25:59.627850,2025-10-26 22:25:59.627850,diana,charlie,0,4,90,2.44,done,20,0
+293,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-09-02 22:25:59.627850,2025-09-13 22:25:59.627850,bob,diana,0,3,50,4.84,in_progress,11,1
+294,Update dependencies,Write unit tests for payment module to improve coverage.,2025-09-19 22:25:59.627850,2025-09-27 22:25:59.627850,charlie,diana,0,3,105,2.14,done,8,0
+295,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-17 22:25:59.627850,2025-09-23 22:25:59.627850,alice,diana,2,8,58,2.47,in_progress,6,1
+296,Design landing page,Optimize slow queries causing high CPU usage on replica DB.,2025-09-26 22:25:59.627850,2025-10-12 22:25:59.627850,bob,charlie,0,2,69,3.46,done,16,0
+297,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-08-18 22:25:59.627850,2025-09-02 22:25:59.627850,diana,diana,0,6,134,4.66,done,15,0
+298,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-08-16 22:25:59.627850,2025-08-28 22:25:59.627850,alice,alice,0,12,68,3.46,in_progress,12,1
+299,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-16 22:25:59.627850,2025-09-04 22:25:59.627850,diana,charlie,0,12,115,0.98,open,19,1
+300,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-09-15 22:25:59.627850,2025-10-02 22:25:59.627850,bob,diana,0,3,105,2.58,done,17,0
+301,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-08-23 22:25:59.627850,2025-09-04 22:25:59.627850,alice,diana,0,1,80,2.37,open,12,1
+302,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-09-05 22:25:59.627850,2025-09-15 22:25:59.627850,charlie,diana,0,12,57,2.85,in_progress,10,1
+303,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-11 22:25:59.627850,2025-09-26 22:25:59.627850,charlie,alice,0,3,16,4.15,open,15,1
+304,Fix login bug,Respond to important client email about billing dispute.,2025-09-24 22:25:59.627850,2025-09-28 22:25:59.627850,bob,bob,2,6,49,2.98,in_progress,4,1
+305,Research new lib,Optimize slow queries causing high CPU usage on replica DB.,2025-09-12 22:25:59.627850,2025-09-20 22:25:59.627850,diana,bob,0,2,168,3.46,in_progress,8,1
+306,Fix login bug,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-09 22:25:59.627850,2025-10-16 22:25:59.627850,diana,diana,2,4,6,3.67,open,7,0
+307,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-19 22:25:59.627850,2025-09-23 22:25:59.627850,bob,charlie,1,3,55,2.56,in_progress,4,1
+308,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-09-23 22:25:59.627850,2025-10-04 22:25:59.627850,diana,diana,0,6,34,2.07,in_progress,11,1
+309,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-10-05 22:25:59.627850,2025-10-15 22:25:59.627850,alice,bob,0,3,35,1.57,open,10,0
+310,Prepare monthly report,Respond to important client email about billing dispute.,2025-09-27 22:25:59.627850,2025-10-02 22:25:59.627850,diana,diana,1,6,40,3.09,in_progress,5,1
+311,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-09-23 22:25:59.627850,2025-10-11 22:25:59.627850,bob,bob,0,4,78,1.13,in_progress,18,1
+312,Write unit tests,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-17 22:25:59.627850,2025-08-29 22:25:59.627850,alice,diana,0,2,54,4.17,done,12,0
+313,Research new lib,Write unit tests for payment module to improve coverage.,2025-09-09 22:25:59.627850,2025-09-25 22:25:59.627850,diana,diana,0,4,47,0.87,open,16,1
+314,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-08-16 22:25:59.627850,2025-08-25 22:25:59.627850,bob,charlie,2,2,122,3.05,in_progress,9,1
+315,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-08-21 22:25:59.627850,2025-09-09 22:25:59.627850,alice,charlie,0,12,144,4.2,in_progress,19,1
+316,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-01 22:25:59.627850,2025-10-16 22:25:59.627850,bob,diana,0,1,193,4.24,open,15,0
+317,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-11 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,alice,0,4,35,3.99,open,9,1
+318,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-27 22:25:59.627850,2025-10-09 22:25:59.627850,diana,bob,2,6,40,4.03,open,12,1
+319,Fix login bug,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-05 22:25:59.627850,2025-09-23 22:25:59.627850,charlie,bob,2,3,185,1.82,done,18,0
+320,Update dependencies,Investigate new ML library for text embeddings and feasibility.,2025-10-10 22:25:59.627850,2025-10-14 22:25:59.627850,bob,diana,1,1,75,4.4,open,4,0
+321,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-08-23 22:25:59.627850,2025-09-03 22:25:59.627850,bob,diana,0,4,41,3.1,in_progress,11,1
+322,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-11 22:25:59.627850,2025-09-14 22:25:59.627850,alice,diana,2,6,196,1.75,in_progress,3,1
+323,Write unit tests,Write unit tests for payment module to improve coverage.,2025-09-03 22:25:59.627850,2025-09-22 22:25:59.627850,alice,alice,0,8,122,3.36,done,19,0
+324,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-10-03 22:25:59.627850,2025-10-21 22:25:59.627850,diana,bob,0,4,59,2.73,in_progress,18,0
+325,Update dependencies,Respond to important client email about billing dispute.,2025-09-18 22:25:59.627850,2025-10-07 22:25:59.627850,bob,diana,0,12,92,4.52,open,19,1
+326,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-09-23 22:25:59.627850,2025-10-08 22:25:59.627850,alice,alice,2,12,45,2.49,open,15,1
+327,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-09-27 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,bob,1,12,75,0.92,in_progress,5,1
+328,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-06 22:25:59.627850,2025-09-12 22:25:59.627850,alice,diana,1,8,83,3.77,open,6,1
+329,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-09-28 22:25:59.627850,2025-10-02 22:25:59.627850,alice,bob,1,4,24,1.1,open,4,1
+330,Research new lib,Write unit tests for payment module to improve coverage.,2025-08-14 22:25:59.627850,2025-08-15 22:25:59.627850,charlie,alice,2,12,113,3.62,in_progress,1,1
+331,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-09-07 22:25:59.627850,2025-09-10 22:25:59.627850,alice,alice,2,3,99,4.46,open,3,1
+332,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-09-24 22:25:59.627850,2025-09-29 22:25:59.627850,alice,alice,1,6,171,1.24,in_progress,5,1
+333,Deploy microservice,Gather sales data and prepare report for stakeholders by Friday.,2025-10-11 22:25:59.627850,2025-10-25 22:25:59.627850,diana,bob,2,1,30,1.13,open,14,0
+334,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-09-05 22:25:59.627850,2025-09-19 22:25:59.627850,charlie,bob,0,2,75,3.4,open,14,1
+335,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-21 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,alice,0,12,173,4.44,open,20,1
+336,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-15 22:25:59.627850,2025-09-22 22:25:59.627850,diana,charlie,1,8,18,4.03,open,7,1
+337,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-08-21 22:25:59.627850,2025-08-29 22:25:59.627850,diana,alice,0,6,8,4.94,in_progress,8,1
+338,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-10-08 22:25:59.627850,2025-10-27 22:25:59.627850,diana,charlie,0,6,179,1.28,in_progress,19,0
+339,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-20 22:25:59.627850,2025-09-23 22:25:59.627850,alice,charlie,2,2,15,4.65,in_progress,3,1
+340,Research new lib,Update package.json dependencies and run compatibility tests.,2025-09-23 22:25:59.627850,2025-10-10 22:25:59.627850,diana,diana,0,8,107,0.87,done,17,0
+341,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-23 22:25:59.627850,2025-09-01 22:25:59.627850,alice,charlie,0,1,135,4.64,open,9,1
+342,Research new lib,Respond to important client email about billing dispute.,2025-09-08 22:25:59.627850,2025-09-27 22:25:59.627850,alice,charlie,0,8,116,3.78,open,19,1
+343,Fix login bug,Deploy new service to production cluster and monitor for errors.,2025-08-19 22:25:59.627850,2025-09-02 22:25:59.627850,alice,diana,2,6,160,0.75,done,14,0
+344,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-08-14 22:25:59.627850,2025-08-19 22:25:59.627850,alice,bob,1,4,93,2.85,done,5,0
+345,Update dependencies,Gather sales data and prepare report for stakeholders by Friday.,2025-09-06 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,alice,1,12,12,2.01,in_progress,5,1
+346,Update dependencies,Investigate new ML library for text embeddings and feasibility.,2025-08-18 22:25:59.627850,2025-08-27 22:25:59.627850,alice,diana,0,4,135,2.12,in_progress,9,1
+347,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-09-06 22:25:59.627850,2025-09-12 22:25:59.627850,charlie,alice,1,6,177,3.75,open,6,1
+348,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-16 22:25:59.627850,2025-08-17 22:25:59.627850,bob,alice,2,4,98,2.22,open,1,1
+349,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-18 22:25:59.627850,2025-10-02 22:25:59.627850,bob,charlie,0,2,111,4.62,in_progress,14,1
+350,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-19 22:25:59.627850,2025-10-01 22:25:59.627850,alice,alice,0,2,62,4.12,open,12,1
+351,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-10-09 22:25:59.627850,2025-10-24 22:25:59.627850,charlie,charlie,0,3,27,2.99,open,15,0
+352,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-09-01 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,bob,0,4,99,3.16,in_progress,19,1
+353,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-10-01 22:25:59.627850,2025-10-09 22:25:59.627850,bob,alice,2,4,11,1.55,in_progress,8,1
+354,Fix login bug,Respond to important client email about billing dispute.,2025-08-14 22:25:59.627850,2025-08-27 22:25:59.627850,charlie,alice,2,2,140,4.92,in_progress,13,1
+355,Write unit tests,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-23 22:25:59.627850,2025-09-01 22:25:59.627850,alice,alice,0,2,138,2.36,in_progress,9,1
+356,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-20 22:25:59.627850,2025-09-24 22:25:59.627850,bob,diana,1,1,156,3.06,in_progress,4,1
+357,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-09-01 22:25:59.627850,2025-09-10 22:25:59.627850,charlie,diana,0,8,193,1.97,in_progress,9,1
+358,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-08-18 22:25:59.627850,2025-08-25 22:25:59.627850,bob,alice,1,2,32,1.24,in_progress,7,1
+359,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-21 22:25:59.627850,2025-09-08 22:25:59.627850,charlie,bob,0,4,83,2.59,open,18,1
+360,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-10-04 22:25:59.627850,2025-10-14 22:25:59.627850,alice,bob,0,12,88,1.17,done,10,0
+361,Deploy microservice,Respond to important client email about billing dispute.,2025-09-08 22:25:59.627850,2025-09-25 22:25:59.627850,alice,charlie,2,3,49,0.64,in_progress,17,1
+362,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-09-30 22:25:59.627850,2025-10-18 22:25:59.627850,bob,alice,0,4,31,4.12,open,18,0
+363,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-17 22:25:59.627850,2025-08-25 22:25:59.627850,bob,bob,0,12,107,2.18,done,8,0
+364,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-20 22:25:59.627850,2025-09-29 22:25:59.627850,alice,alice,0,1,55,4.56,in_progress,9,1
+365,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-10-10 22:25:59.627850,2025-10-21 22:25:59.627850,alice,alice,0,4,17,1.26,done,11,0
+366,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-14 22:25:59.627850,2025-09-15 22:25:59.627850,diana,diana,2,2,95,1.47,open,1,1
+367,Update dependencies,Update package.json dependencies and run compatibility tests.,2025-09-11 22:25:59.627850,2025-09-16 22:25:59.627850,alice,bob,1,8,80,2.75,done,5,0
+368,Write unit tests,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-19 22:25:59.627850,2025-08-28 22:25:59.627850,diana,bob,0,4,56,3.39,done,9,0
+369,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-10-03 22:25:59.627850,2025-10-04 22:25:59.627850,diana,charlie,2,4,144,4.02,in_progress,1,1
+370,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-09-03 22:25:59.627850,2025-09-16 22:25:59.627850,charlie,bob,0,1,86,3.19,open,13,1
+371,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-04 22:25:59.627850,2025-10-20 22:25:59.627850,charlie,bob,0,2,30,1.62,open,16,0
+372,Update dependencies,Investigate new ML library for text embeddings and feasibility.,2025-10-05 22:25:59.627850,2025-10-07 22:25:59.627850,bob,diana,2,3,49,1.29,done,2,0
+373,Customer email reply,Respond to important client email about billing dispute.,2025-10-11 22:25:59.627850,2025-10-30 22:25:59.627850,alice,charlie,0,6,149,1.14,open,19,0
+374,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-09-02 22:25:59.627850,2025-09-08 22:25:59.627850,diana,alice,1,1,19,1.55,open,6,1
+375,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-09-13 22:25:59.627850,2025-09-14 22:25:59.627850,charlie,bob,2,12,38,2.03,open,1,1
+376,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-15 22:25:59.627850,2025-08-20 22:25:59.627850,bob,alice,1,12,139,4.37,open,5,1
+377,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-20 22:25:59.627850,2025-09-24 22:25:59.627850,charlie,charlie,1,3,39,4.89,done,4,0
+378,Optimize DB queries,Write unit tests for payment module to improve coverage.,2025-09-24 22:25:59.627850,2025-10-05 22:25:59.627850,bob,charlie,0,2,175,3.15,open,11,1
+379,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-09-29 22:25:59.627850,2025-10-09 22:25:59.627850,bob,bob,0,8,5,4.77,done,10,0
+380,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-16 22:25:59.627850,2025-08-22 22:25:59.627850,charlie,bob,1,8,149,0.97,in_progress,6,1
+381,Prepare monthly report,Respond to important client email about billing dispute.,2025-09-30 22:25:59.627850,2025-10-03 22:25:59.627850,bob,charlie,2,3,47,3.36,open,3,1
+382,Customer email reply,Write unit tests for payment module to improve coverage.,2025-08-14 22:25:59.627850,2025-08-23 22:25:59.627850,bob,bob,0,8,22,2.08,open,9,1
+383,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-07 22:25:59.627850,2025-09-22 22:25:59.627850,diana,bob,2,4,131,4.47,in_progress,15,1
+384,Research new lib,Optimize slow queries causing high CPU usage on replica DB.,2025-08-20 22:25:59.627850,2025-09-05 22:25:59.627850,bob,bob,0,4,23,4.1,open,16,1
+385,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-03 22:25:59.627850,2025-09-12 22:25:59.627850,alice,alice,0,3,48,4.5,open,9,1
+386,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-10-13 22:25:59.627850,2025-10-16 22:25:59.627850,charlie,diana,2,8,12,2.44,done,3,0
+387,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-09 22:25:59.627850,2025-10-23 22:25:59.627850,bob,alice,0,1,89,1.42,open,14,0
+388,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-09-29 22:25:59.627850,2025-10-17 22:25:59.627850,charlie,charlie,0,3,65,0.93,in_progress,18,0
+389,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-10-06 22:25:59.627850,2025-10-22 22:25:59.627850,bob,alice,0,3,5,2.42,in_progress,16,0
+390,Plan sprint,Write unit tests for payment module to improve coverage.,2025-08-26 22:25:59.627850,2025-08-30 22:25:59.627850,alice,bob,1,2,168,1.81,open,4,1
+391,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-02 22:25:59.627850,2025-09-15 22:25:59.627850,diana,diana,0,8,72,0.91,done,13,0
+392,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-09-06 22:25:59.627850,2025-09-19 22:25:59.627850,charlie,bob,0,4,16,1.68,in_progress,13,1
+393,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-10-06 22:25:59.627850,2025-10-15 22:25:59.627850,alice,bob,0,12,183,3.5,open,9,0
+394,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-09-09 22:25:59.627850,2025-09-28 22:25:59.627850,bob,alice,0,12,104,4.18,in_progress,19,1
+395,Research new lib,Write unit tests for payment module to improve coverage.,2025-09-19 22:25:59.627850,2025-09-27 22:25:59.627850,diana,charlie,0,1,106,4.56,done,8,0
+396,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-09-19 22:25:59.627850,2025-10-06 22:25:59.627850,bob,alice,2,12,119,1.28,open,17,1
+397,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-08-22 22:25:59.627850,2025-08-24 22:25:59.627850,diana,alice,2,8,116,1.41,done,2,0
+398,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-30 22:25:59.627850,2025-09-10 22:25:59.627850,alice,alice,0,4,147,2.29,in_progress,11,1
+399,Update dependencies,Investigate new ML library for text embeddings and feasibility.,2025-09-12 22:25:59.627850,2025-09-13 22:25:59.627850,diana,alice,2,4,43,1.17,done,1,0
+400,Plan sprint,Create responsive landing page for product X using Figma mockups.,2025-10-12 22:25:59.627850,2025-10-16 22:25:59.627850,alice,charlie,1,12,142,4.46,in_progress,4,0
+401,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-24 22:25:59.627850,2025-10-10 22:25:59.627850,diana,alice,0,2,75,2.31,done,16,0
+402,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-08-16 22:25:59.627850,2025-08-29 22:25:59.627850,charlie,bob,0,1,195,2.64,in_progress,13,1
+403,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-04 22:25:59.627850,2025-09-14 22:25:59.627850,charlie,charlie,0,12,130,4.36,done,10,0
+404,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-08-22 22:25:59.627850,2025-09-01 22:25:59.627850,diana,charlie,0,3,191,2.38,done,10,0
+405,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-09-11 22:25:59.627850,2025-09-18 22:25:59.627850,diana,diana,1,12,137,4.4,open,7,1
+406,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-08-18 22:25:59.627850,2025-08-28 22:25:59.627850,diana,bob,0,12,139,4.46,open,10,1
+407,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-10-09 22:25:59.627850,2025-10-16 22:25:59.627850,alice,bob,1,1,121,0.73,in_progress,7,0
+408,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-09-06 22:25:59.627850,2025-09-21 22:25:59.627850,diana,alice,2,8,12,1.59,in_progress,15,1
+409,Plan sprint,Write unit tests for payment module to improve coverage.,2025-08-25 22:25:59.627850,2025-09-10 22:25:59.627850,charlie,charlie,0,2,71,3.87,done,16,0
+410,Design landing page,Update package.json dependencies and run compatibility tests.,2025-08-15 22:25:59.627850,2025-08-28 22:25:59.627850,alice,bob,0,12,151,4.01,open,13,1
+411,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-09-26 22:25:59.627850,2025-10-03 22:25:59.627850,charlie,diana,2,6,10,4.39,done,7,0
+412,Fix login bug,Write unit tests for payment module to improve coverage.,2025-10-11 22:25:59.627850,2025-10-16 22:25:59.627850,bob,alice,2,2,69,3.24,in_progress,5,0
+413,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-10-10 22:25:59.627850,2025-10-23 22:25:59.627850,charlie,diana,0,3,60,2.6,done,13,0
+414,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-08 22:25:59.627850,2025-09-27 22:25:59.627850,alice,alice,0,6,174,4.85,in_progress,19,1
+415,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-21 22:25:59.627850,2025-10-01 22:25:59.627850,charlie,alice,0,4,21,2.01,in_progress,10,1
+416,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-08-30 22:25:59.627850,2025-09-09 22:25:59.627850,bob,bob,0,6,200,1.58,open,10,1
+417,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-09-25 22:25:59.627850,2025-10-06 22:25:59.627850,bob,alice,0,8,132,4.99,in_progress,11,1
+418,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-07 22:25:59.627850,2025-09-09 22:25:59.627850,bob,charlie,2,8,187,1.5,done,2,0
+419,Write unit tests,Respond to important client email about billing dispute.,2025-09-15 22:25:59.627850,2025-09-25 22:25:59.627850,bob,bob,0,3,29,2.62,done,10,0
+420,Update dependencies,Investigate new ML library for text embeddings and feasibility.,2025-10-01 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,alice,1,2,95,1.5,in_progress,6,1
+421,Optimize DB queries,Respond to important client email about billing dispute.,2025-09-06 22:25:59.627850,2025-09-15 22:25:59.627850,charlie,diana,0,12,35,2.62,done,9,0
+422,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-13 22:25:59.627850,2025-11-02 22:25:59.627850,alice,diana,0,2,133,1.04,done,20,0
+423,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-09-02 22:25:59.627850,2025-09-16 22:25:59.627850,alice,bob,0,2,56,2.04,done,14,0
+424,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-09-03 22:25:59.627850,2025-09-09 22:25:59.627850,alice,diana,1,3,166,4.94,in_progress,6,1
+425,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-11 22:25:59.627850,2025-09-20 22:25:59.627850,bob,bob,2,6,200,1.21,open,9,1
+426,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-10 22:25:59.627850,2025-09-24 22:25:59.627850,diana,diana,0,4,103,0.52,done,14,0
+427,Deploy microservice,Respond to important client email about billing dispute.,2025-10-13 22:25:59.627850,2025-10-14 22:25:59.627850,charlie,bob,2,1,178,0.52,done,1,0
+428,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-09-27 22:25:59.627850,2025-10-09 22:25:59.627850,charlie,bob,2,1,103,2.77,in_progress,12,1
+429,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-10-05 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,charlie,2,4,191,2.84,done,2,0
+430,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-10-09 22:25:59.627850,2025-10-14 22:25:59.627850,charlie,diana,1,3,197,1.35,in_progress,5,0
+431,Fix login bug,Deploy new service to production cluster and monitor for errors.,2025-08-28 22:25:59.627850,2025-09-02 22:25:59.627850,bob,alice,2,6,134,1.26,in_progress,5,1
+432,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-10-09 22:25:59.627850,2025-10-18 22:25:59.627850,alice,alice,2,8,32,3.44,open,9,0
+433,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-09-09 22:25:59.627850,2025-09-24 22:25:59.627850,diana,alice,2,6,69,2.63,open,15,1
+434,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-02 22:25:59.627850,2025-09-16 22:25:59.627850,alice,charlie,2,6,160,3.65,in_progress,14,1
+435,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-09-29 22:25:59.627850,2025-10-19 22:25:59.627850,alice,charlie,0,1,32,2.74,done,20,0
+436,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-10-06 22:25:59.627850,2025-10-23 22:25:59.627850,bob,charlie,2,8,109,1.83,open,17,0
+437,Research new lib,Write unit tests for payment module to improve coverage.,2025-10-11 22:25:59.627850,2025-10-18 22:25:59.627850,diana,charlie,1,2,5,0.56,open,7,0
+438,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-25 22:25:59.627850,2025-10-11 22:25:59.627850,bob,alice,0,12,135,0.84,done,16,0
+439,Design landing page,Update package.json dependencies and run compatibility tests.,2025-09-24 22:25:59.627850,2025-10-02 22:25:59.627850,diana,charlie,0,3,123,0.73,open,8,1
+440,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-09-06 22:25:59.627850,2025-09-17 22:25:59.627850,diana,alice,2,1,199,4.51,open,11,1
+441,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-09-04 22:25:59.627850,2025-09-16 22:25:59.627850,diana,charlie,0,8,28,2.18,in_progress,12,1
+442,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-09-08 22:25:59.627850,2025-09-21 22:25:59.627850,diana,charlie,0,12,103,3.6,in_progress,13,1
+443,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-08-21 22:25:59.627850,2025-08-26 22:25:59.627850,alice,bob,1,1,111,4.6,in_progress,5,1
+444,Plan sprint,Write unit tests for payment module to improve coverage.,2025-08-25 22:25:59.627850,2025-09-14 22:25:59.627850,diana,charlie,0,6,12,4.38,done,20,0
+445,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-10-11 22:25:59.627850,2025-10-27 22:25:59.627850,alice,diana,0,4,16,0.79,done,16,0
+446,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-28 22:25:59.627850,2025-10-15 22:25:59.627850,bob,charlie,0,6,138,3.6,done,17,0
+447,Design landing page,Optimize slow queries causing high CPU usage on replica DB.,2025-09-25 22:25:59.627850,2025-10-03 22:25:59.627850,diana,charlie,0,8,178,3.39,open,8,1
+448,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-17 22:25:59.627850,2025-08-18 22:25:59.627850,bob,diana,2,12,131,4.41,open,1,1
+449,Write unit tests,Respond to important client email about billing dispute.,2025-08-29 22:25:59.627850,2025-09-09 22:25:59.627850,charlie,alice,0,6,62,2.98,in_progress,11,1
+450,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-08-19 22:25:59.627850,2025-09-03 22:25:59.627850,diana,diana,0,1,132,2.51,open,15,1
+451,Write unit tests,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-20 22:25:59.627850,2025-09-02 22:25:59.627850,diana,alice,0,6,145,0.5,open,13,1
+452,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-23 22:25:59.627850,2025-10-03 22:25:59.627850,bob,diana,0,3,98,4.21,open,10,1
+453,Write unit tests,Respond to important client email about billing dispute.,2025-09-18 22:25:59.627850,2025-10-08 22:25:59.627850,diana,charlie,0,8,120,1.01,done,20,0
+454,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-04 22:25:59.627850,2025-09-16 22:25:59.627850,charlie,charlie,2,8,32,0.71,open,12,1
+455,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-10-05 22:25:59.627850,2025-10-19 22:25:59.627850,alice,charlie,0,6,55,1.34,in_progress,14,0
+456,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-10-05 22:25:59.627850,2025-10-12 22:25:59.627850,charlie,alice,2,12,111,0.71,done,7,0
+457,Plan sprint,Create responsive landing page for product X using Figma mockups.,2025-10-02 22:25:59.627850,2025-10-17 22:25:59.627850,diana,bob,0,4,6,2.89,open,15,0
+458,Research new lib,Optimize slow queries causing high CPU usage on replica DB.,2025-10-06 22:25:59.627850,2025-10-25 22:25:59.627850,diana,bob,0,8,153,1.28,open,19,0
+459,Design landing page,Optimize slow queries causing high CPU usage on replica DB.,2025-09-25 22:25:59.627850,2025-10-15 22:25:59.627850,charlie,diana,0,4,160,4.62,open,20,0
+460,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-04 22:25:59.627850,2025-09-14 22:25:59.627850,diana,bob,0,2,110,3.21,done,10,0
+461,Research new lib,Update package.json dependencies and run compatibility tests.,2025-10-06 22:25:59.627850,2025-10-24 22:25:59.627850,charlie,bob,0,2,58,3.31,in_progress,18,0
+462,Customer email reply,Gather sales data and prepare report for stakeholders by Friday.,2025-09-28 22:25:59.627850,2025-10-04 22:25:59.627850,charlie,alice,1,12,95,3.03,done,6,0
+463,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-09-26 22:25:59.627850,2025-10-14 22:25:59.627850,charlie,diana,0,12,8,2.85,open,18,0
+464,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-08-17 22:25:59.627850,2025-08-19 22:25:59.627850,bob,charlie,2,12,46,4.93,done,2,0
+465,Update dependencies,Gather sales data and prepare report for stakeholders by Friday.,2025-10-06 22:25:59.627850,2025-10-08 22:25:59.627850,charlie,bob,2,12,143,0.65,in_progress,2,1
+466,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-08 22:25:59.627850,2025-10-26 22:25:59.627850,bob,diana,0,2,135,4.03,done,18,0
+467,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-12 22:25:59.627850,2025-10-25 22:25:59.627850,diana,diana,0,12,180,1.91,done,13,0
+468,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-30 22:25:59.627850,2025-10-09 22:25:59.627850,bob,diana,2,12,62,4.6,done,9,0
+469,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-17 22:25:59.627850,2025-10-07 22:25:59.627850,bob,bob,0,3,119,1.3,done,20,0
+470,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-25 22:25:59.627850,2025-09-11 22:25:59.627850,alice,diana,0,1,114,1.76,in_progress,17,1
+471,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-09-20 22:25:59.627850,2025-09-29 22:25:59.627850,alice,charlie,0,4,186,4.72,open,9,1
+472,Prepare monthly report,Respond to important client email about billing dispute.,2025-09-21 22:25:59.627850,2025-09-23 22:25:59.627850,charlie,diana,2,12,151,2.98,open,2,1
+473,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-08-28 22:25:59.627850,2025-09-03 22:25:59.627850,alice,bob,1,4,144,2.92,open,6,1
+474,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-10-09 22:25:59.627850,2025-10-16 22:25:59.627850,charlie,charlie,1,3,80,1.48,done,7,0
+475,Research new lib,Write unit tests for payment module to improve coverage.,2025-09-18 22:25:59.627850,2025-09-19 22:25:59.627850,alice,charlie,2,4,66,4.57,done,1,0
+476,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-08-16 22:25:59.627850,2025-08-27 22:25:59.627850,diana,alice,0,4,70,2.93,in_progress,11,1
+477,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-10-05 22:25:59.627850,2025-10-17 22:25:59.627850,diana,diana,2,1,80,4.54,open,12,0
+478,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-08-19 22:25:59.627850,2025-08-23 22:25:59.627850,bob,alice,1,8,21,1.45,done,4,0
+479,Deploy microservice,Optimize slow queries causing high CPU usage on replica DB.,2025-10-06 22:25:59.627850,2025-10-10 22:25:59.627850,bob,diana,2,8,23,3.86,open,4,1
+480,Fix login bug,Write unit tests for payment module to improve coverage.,2025-09-28 22:25:59.627850,2025-10-09 22:25:59.627850,alice,alice,2,1,18,1.3,in_progress,11,1
+481,Research new lib,Create responsive landing page for product X using Figma mockups.,2025-09-19 22:25:59.627850,2025-09-27 22:25:59.627850,charlie,diana,0,4,120,3.34,in_progress,8,1
+482,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-07 22:25:59.627850,2025-09-11 22:25:59.627850,alice,alice,1,12,195,3.14,done,4,0
+483,Design landing page,Respond to important client email about billing dispute.,2025-10-12 22:25:59.627850,2025-10-29 22:25:59.627850,alice,charlie,0,12,180,1.86,open,17,0
+484,Update dependencies,Write unit tests for payment module to improve coverage.,2025-09-07 22:25:59.627850,2025-09-20 22:25:59.627850,alice,diana,0,2,141,1.49,done,13,0
+485,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-09-01 22:25:59.627850,2025-09-06 22:25:59.627850,charlie,charlie,1,1,146,4.44,open,5,1
+486,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-14 22:25:59.627850,2025-09-02 22:25:59.627850,diana,alice,0,3,58,3.87,done,19,0
+487,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-09-09 22:25:59.627850,2025-09-26 22:25:59.627850,bob,bob,0,2,61,3.28,in_progress,17,1
+488,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-08-25 22:25:59.627850,2025-09-13 22:25:59.627850,alice,diana,2,8,145,0.83,done,19,0
+489,Design landing page,Update package.json dependencies and run compatibility tests.,2025-08-20 22:25:59.627850,2025-08-27 22:25:59.627850,diana,charlie,1,3,37,3.52,open,7,1
+490,Design landing page,Update package.json dependencies and run compatibility tests.,2025-09-22 22:25:59.627850,2025-09-25 22:25:59.627850,bob,charlie,2,4,120,1.98,done,3,0
+491,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-23 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,charlie,0,4,48,0.52,open,19,1
+492,Deploy microservice,Optimize slow queries causing high CPU usage on replica DB.,2025-08-31 22:25:59.627850,2025-09-12 22:25:59.627850,bob,charlie,2,4,123,2.5,in_progress,12,1
+493,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-08-20 22:25:59.627850,2025-08-26 22:25:59.627850,alice,charlie,1,12,40,4.51,open,6,1
+494,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-29 22:25:59.627850,2025-10-02 22:25:59.627850,alice,alice,2,12,153,3.11,done,3,0
+495,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-18 22:25:59.627850,2025-09-27 22:25:59.627850,diana,bob,2,3,105,1.5,done,9,0
+496,Update dependencies,Gather sales data and prepare report for stakeholders by Friday.,2025-09-12 22:25:59.627850,2025-09-29 22:25:59.627850,alice,diana,0,3,133,0.55,open,17,1
+497,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-10-01 22:25:59.627850,2025-10-18 22:25:59.627850,bob,diana,0,2,50,3.05,done,17,0
+498,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-10-13 22:25:59.627850,2025-10-25 22:25:59.627850,alice,bob,0,12,129,1.54,in_progress,12,0
+499,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-08-16 22:25:59.627850,2025-08-23 22:25:59.627850,charlie,diana,1,4,121,4.47,open,7,1
+500,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-09-28 22:25:59.627850,2025-10-15 22:25:59.627850,charlie,charlie,0,6,144,3.07,in_progress,17,0
+501,Optimize DB queries,Respond to important client email about billing dispute.,2025-09-20 22:25:59.627850,2025-09-23 22:25:59.627850,charlie,diana,2,2,137,2.33,in_progress,3,1
+502,Write unit tests,Write unit tests for payment module to improve coverage.,2025-10-09 22:25:59.627850,2025-10-29 22:25:59.627850,alice,bob,0,4,47,1.53,done,20,0
+503,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-08-23 22:25:59.627850,2025-08-29 22:25:59.627850,bob,charlie,1,6,188,4.18,done,6,0
+504,Deploy microservice,Optimize slow queries causing high CPU usage on replica DB.,2025-10-04 22:25:59.627850,2025-10-15 22:25:59.627850,alice,diana,2,8,127,2.66,done,11,0
+505,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-08-15 22:25:59.627850,2025-08-23 22:25:59.627850,alice,bob,0,6,156,1.23,done,8,0
+506,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-10 22:25:59.627850,2025-10-29 22:25:59.627850,bob,alice,0,2,71,4.65,done,19,0
+507,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-19 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,alice,2,2,119,3.23,in_progress,1,1
+508,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-08-28 22:25:59.627850,2025-09-11 22:25:59.627850,bob,bob,0,6,173,2.8,open,14,1
+509,Customer email reply,Write unit tests for payment module to improve coverage.,2025-09-21 22:25:59.627850,2025-10-10 22:25:59.627850,alice,bob,0,4,103,1.09,open,19,1
+510,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-10-08 22:25:59.627850,2025-10-25 22:25:59.627850,diana,bob,2,6,29,1.3,done,17,0
+511,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-09 22:25:59.627850,2025-10-27 22:25:59.627850,alice,alice,0,4,173,1.09,done,18,0
+512,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-10 22:25:59.627850,2025-10-24 22:25:59.627850,diana,charlie,0,12,16,3.64,in_progress,14,0
+513,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-10-03 22:25:59.627850,2025-10-16 22:25:59.627850,charlie,alice,2,4,39,1.65,open,13,0
+514,Design landing page,Update package.json dependencies and run compatibility tests.,2025-09-21 22:25:59.627850,2025-10-09 22:25:59.627850,diana,charlie,0,2,6,3.69,open,18,1
+515,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-08-21 22:25:59.627850,2025-09-07 22:25:59.627850,alice,diana,0,8,57,3.59,in_progress,17,1
+516,Optimize DB queries,Respond to important client email about billing dispute.,2025-08-20 22:25:59.627850,2025-08-25 22:25:59.627850,diana,charlie,1,3,142,2.41,in_progress,5,1
+517,Plan sprint,Update package.json dependencies and run compatibility tests.,2025-09-26 22:25:59.627850,2025-10-09 22:25:59.627850,bob,diana,0,6,147,2.67,in_progress,13,1
+518,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-09-13 22:25:59.627850,2025-09-22 22:25:59.627850,charlie,charlie,0,12,185,2.29,open,9,1
+519,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-09-11 22:25:59.627850,2025-09-17 22:25:59.627850,alice,bob,1,6,107,4.04,done,6,0
+520,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-24 22:25:59.627850,2025-09-06 22:25:59.627850,alice,alice,0,12,42,2.62,done,13,0
+521,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-08-18 22:25:59.627850,2025-08-27 22:25:59.627850,bob,charlie,0,1,160,0.67,in_progress,9,1
+522,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-24 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,alice,0,12,49,3.38,in_progress,17,1
+523,Fix login bug,Deploy new service to production cluster and monitor for errors.,2025-10-07 22:25:59.627850,2025-10-24 22:25:59.627850,charlie,bob,2,1,158,2.8,done,17,0
+524,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-24 22:25:59.627850,2025-08-26 22:25:59.627850,charlie,bob,2,8,5,4.89,open,2,1
+525,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-05 22:25:59.627850,2025-09-18 22:25:59.627850,diana,bob,0,6,8,3.82,open,13,1
+526,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-09-01 22:25:59.627850,2025-09-19 22:25:59.627850,charlie,charlie,0,12,75,1.52,open,18,1
+527,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-09-19 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,bob,2,4,134,0.98,open,1,1
+528,Research new lib,Update package.json dependencies and run compatibility tests.,2025-09-04 22:25:59.627850,2025-09-08 22:25:59.627850,charlie,charlie,1,8,118,4.85,done,4,0
+529,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-10-01 22:25:59.627850,2025-10-12 22:25:59.627850,diana,diana,0,6,12,2.67,in_progress,11,1
+530,Design landing page,Optimize slow queries causing high CPU usage on replica DB.,2025-09-23 22:25:59.627850,2025-10-01 22:25:59.627850,bob,charlie,0,4,95,2.82,open,8,1
+531,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-09-01 22:25:59.627850,2025-09-04 22:25:59.627850,diana,charlie,2,1,146,4.69,in_progress,3,1
+532,Customer email reply,Respond to important client email about billing dispute.,2025-08-27 22:25:59.627850,2025-09-15 22:25:59.627850,charlie,bob,0,8,179,4.69,open,19,1
+533,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-08-29 22:25:59.627850,2025-09-06 22:25:59.627850,charlie,bob,0,2,56,4.26,done,8,0
+534,Customer email reply,Gather sales data and prepare report for stakeholders by Friday.,2025-10-02 22:25:59.627850,2025-10-06 22:25:59.627850,alice,alice,1,8,174,2.72,open,4,1
+535,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-07 22:25:59.627850,2025-10-23 22:25:59.627850,charlie,charlie,0,4,152,4.41,in_progress,16,0
+536,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-08-31 22:25:59.627850,2025-09-13 22:25:59.627850,bob,bob,0,1,139,4.1,in_progress,13,1
+537,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-15 22:25:59.627850,2025-09-27 22:25:59.627850,diana,bob,0,4,35,3.64,in_progress,12,1
+538,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-14 22:25:59.627850,2025-08-21 22:25:59.627850,diana,alice,1,3,97,3.26,in_progress,7,1
+539,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-08-30 22:25:59.627850,2025-09-07 22:25:59.627850,charlie,diana,0,6,92,2.15,in_progress,8,1
+540,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-09-09 22:25:59.627850,2025-09-21 22:25:59.627850,charlie,diana,0,3,120,1.31,open,12,1
+541,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-10-05 22:25:59.627850,2025-10-09 22:25:59.627850,charlie,bob,1,6,115,4.35,open,4,1
+542,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-09-13 22:25:59.627850,2025-09-14 22:25:59.627850,bob,diana,2,4,39,4.98,done,1,0
+543,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-09-29 22:25:59.627850,2025-10-10 22:25:59.627850,diana,charlie,0,3,148,4.36,open,11,1
+544,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-09-27 22:25:59.627850,2025-10-03 22:25:59.627850,alice,bob,1,12,70,2.64,done,6,0
+545,Design landing page,Write unit tests for payment module to improve coverage.,2025-09-30 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,charlie,0,3,148,3.01,in_progress,11,1
+546,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-09 22:25:59.627850,2025-09-13 22:25:59.627850,charlie,bob,1,6,152,3.42,done,4,0
+547,Prepare monthly report,Update package.json dependencies and run compatibility tests.,2025-09-05 22:25:59.627850,2025-09-16 22:25:59.627850,diana,diana,0,1,102,3.26,in_progress,11,1
+548,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-09-23 22:25:59.627850,2025-10-04 22:25:59.627850,diana,diana,0,12,23,0.86,in_progress,11,1
+549,Deploy microservice,Respond to important client email about billing dispute.,2025-09-03 22:25:59.627850,2025-09-13 22:25:59.627850,charlie,diana,2,3,118,4.01,in_progress,10,1
+550,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-09-11 22:25:59.627850,2025-09-25 22:25:59.627850,bob,bob,0,12,10,1.06,open,14,1
+551,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-08-27 22:25:59.627850,2025-09-02 22:25:59.627850,diana,alice,1,1,21,4.72,in_progress,6,1
+552,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-15 22:25:59.627850,2025-08-28 22:25:59.627850,alice,alice,0,3,163,1.2,done,13,0
+553,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-08-28 22:25:59.627850,2025-09-05 22:25:59.627850,charlie,diana,0,8,37,1.09,open,8,1
+554,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-25 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,diana,2,4,143,4.71,done,12,0
+555,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-10-13 22:25:59.627850,2025-10-31 22:25:59.627850,bob,diana,0,8,196,3.36,done,18,0
+556,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-09-23 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,charlie,0,4,143,1.52,open,18,1
+557,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-09-06 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,bob,0,3,7,0.5,open,14,1
+558,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-09-13 22:25:59.627850,2025-10-01 22:25:59.627850,alice,diana,0,12,127,1.85,in_progress,18,1
+559,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-28 22:25:59.627850,2025-08-29 22:25:59.627850,charlie,bob,2,4,148,2.47,open,1,1
+560,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-10-06 22:25:59.627850,2025-10-19 22:25:59.627850,bob,charlie,0,1,113,3.31,done,13,0
+561,Plan sprint,Update package.json dependencies and run compatibility tests.,2025-09-01 22:25:59.627850,2025-09-19 22:25:59.627850,charlie,diana,0,2,22,1.32,in_progress,18,1
+562,Design landing page,Write unit tests for payment module to improve coverage.,2025-09-22 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,diana,0,2,87,0.59,open,15,1
+563,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-25 22:25:59.627850,2025-08-29 22:25:59.627850,charlie,charlie,1,2,188,2.47,open,4,1
+564,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-08-23 22:25:59.627850,2025-08-24 22:25:59.627850,diana,bob,2,3,112,1.9,in_progress,1,1
+565,Customer email reply,Write unit tests for payment module to improve coverage.,2025-09-27 22:25:59.627850,2025-09-29 22:25:59.627850,charlie,alice,2,12,197,4.78,open,2,1
+566,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-08-18 22:25:59.627850,2025-09-05 22:25:59.627850,diana,bob,0,2,69,4.18,open,18,1
+567,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-09-07 22:25:59.627850,2025-09-22 22:25:59.627850,bob,alice,0,2,122,3.81,open,15,1
+568,Research new lib,Deploy new service to production cluster and monitor for errors.,2025-09-13 22:25:59.627850,2025-09-26 22:25:59.627850,charlie,charlie,0,2,166,3.78,done,13,0
+569,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-08-21 22:25:59.627850,2025-08-30 22:25:59.627850,diana,charlie,0,2,97,4.49,done,9,0
+570,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-08-29 22:25:59.627850,2025-09-12 22:25:59.627850,charlie,alice,2,2,75,3.13,in_progress,14,1
+571,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-16 22:25:59.627850,2025-09-04 22:25:59.627850,diana,bob,2,3,27,1.62,in_progress,19,1
+572,Design landing page,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-04 22:25:59.627850,2025-09-06 22:25:59.627850,alice,charlie,2,8,44,3.66,open,2,1
+573,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-08-28 22:25:59.627850,2025-09-08 22:25:59.627850,charlie,diana,0,8,54,0.6,in_progress,11,1
+574,Customer email reply,Gather sales data and prepare report for stakeholders by Friday.,2025-08-30 22:25:59.627850,2025-09-01 22:25:59.627850,diana,diana,2,6,80,2.94,in_progress,2,1
+575,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-25 22:25:59.627850,2025-09-12 22:25:59.627850,charlie,charlie,2,8,124,1.74,done,18,0
+576,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-08-18 22:25:59.627850,2025-09-04 22:25:59.627850,bob,diana,0,3,72,2.94,in_progress,17,1
+577,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-09-07 22:25:59.627850,2025-09-13 22:25:59.627850,alice,charlie,2,12,163,1.57,done,6,0
+578,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-10-05 22:25:59.627850,2025-10-18 22:25:59.627850,bob,diana,0,12,146,1.19,in_progress,13,0
+579,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-24 22:25:59.627850,2025-10-05 22:25:59.627850,alice,alice,0,6,173,0.8,open,11,1
+580,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-26 22:25:59.627850,2025-08-30 22:25:59.627850,diana,bob,1,1,13,3.07,in_progress,4,1
+581,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-09-22 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,alice,0,3,61,3.23,open,19,1
+582,Fix login bug,Deploy new service to production cluster and monitor for errors.,2025-09-24 22:25:59.627850,2025-10-10 22:25:59.627850,alice,diana,2,12,168,0.77,done,16,0
+583,Optimize DB queries,Respond to important client email about billing dispute.,2025-10-03 22:25:59.627850,2025-10-05 22:25:59.627850,charlie,alice,2,8,23,4.26,open,2,1
+584,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-08-20 22:25:59.627850,2025-08-24 22:25:59.627850,bob,diana,2,2,54,2.87,open,4,1
+585,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-09-18 22:25:59.627850,2025-10-06 22:25:59.627850,diana,alice,0,12,168,3.09,done,18,0
+586,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-10-09 22:25:59.627850,2025-10-13 22:25:59.627850,bob,bob,1,6,107,2.77,done,4,0
+587,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-09-21 22:25:59.627850,2025-10-06 22:25:59.627850,charlie,charlie,0,6,88,4.3,in_progress,15,1
+588,Optimize DB queries,Respond to important client email about billing dispute.,2025-09-21 22:25:59.627850,2025-09-29 22:25:59.627850,bob,diana,0,12,145,4.67,in_progress,8,1
+589,Customer email reply,Write unit tests for payment module to improve coverage.,2025-09-11 22:25:59.627850,2025-09-24 22:25:59.627850,alice,alice,0,3,157,0.57,open,13,1
+590,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-02 22:25:59.627850,2025-09-10 22:25:59.627850,bob,charlie,0,1,181,4.2,done,8,0
+591,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-09-19 22:25:59.627850,2025-10-08 22:25:59.627850,bob,alice,0,1,122,2.1,open,19,1
+592,Update dependencies,Respond to important client email about billing dispute.,2025-10-09 22:25:59.627850,2025-10-28 22:25:59.627850,bob,bob,0,3,81,0.91,in_progress,19,0
+593,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-29 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,diana,2,2,129,4.22,done,3,0
+594,Plan sprint,Create responsive landing page for product X using Figma mockups.,2025-09-21 22:25:59.627850,2025-10-01 22:25:59.627850,alice,diana,0,1,19,4.65,in_progress,10,1
+595,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-09 22:25:59.627850,2025-09-13 22:25:59.627850,bob,alice,1,8,166,2.22,in_progress,4,1
+596,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-03 22:25:59.627850,2025-09-21 22:25:59.627850,bob,charlie,0,6,183,1.49,open,18,1
+597,Optimize DB queries,Write unit tests for payment module to improve coverage.,2025-10-01 22:25:59.627850,2025-10-21 22:25:59.627850,alice,bob,0,4,79,4.04,open,20,0
+598,Prepare monthly report,Respond to important client email about billing dispute.,2025-08-19 22:25:59.627850,2025-09-04 22:25:59.627850,alice,diana,0,3,26,2.29,in_progress,16,1
+599,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-09-13 22:25:59.627850,2025-10-01 22:25:59.627850,bob,diana,0,4,171,3.07,done,18,0
+600,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-08-29 22:25:59.627850,2025-09-06 22:25:59.627850,alice,charlie,0,12,115,1.96,done,8,0
+601,Design landing page,Create responsive landing page for product X using Figma mockups.,2025-09-25 22:25:59.627850,2025-10-09 22:25:59.627850,diana,charlie,0,3,53,1.94,done,14,0
+602,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-08-24 22:25:59.627850,2025-09-05 22:25:59.627850,diana,bob,2,4,16,4.66,open,12,1
+603,Deploy microservice,Respond to important client email about billing dispute.,2025-08-23 22:25:59.627850,2025-08-26 22:25:59.627850,alice,alice,2,2,163,4.67,in_progress,3,1
+604,Fix login bug,Respond to important client email about billing dispute.,2025-09-27 22:25:59.627850,2025-10-01 22:25:59.627850,charlie,diana,2,4,10,1.99,done,4,0
+605,Research new lib,Deploy new service to production cluster and monitor for errors.,2025-08-27 22:25:59.627850,2025-09-14 22:25:59.627850,charlie,diana,0,6,191,4.97,done,18,0
+606,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-09-20 22:25:59.627850,2025-10-07 22:25:59.627850,alice,charlie,2,2,20,1.78,done,17,0
+607,Plan sprint,Update package.json dependencies and run compatibility tests.,2025-08-17 22:25:59.627850,2025-09-01 22:25:59.627850,alice,alice,0,4,174,1.72,done,15,0
+608,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-08-15 22:25:59.627850,2025-08-25 22:25:59.627850,diana,bob,0,4,135,4.89,open,10,1
+609,Customer email reply,Write unit tests for payment module to improve coverage.,2025-10-08 22:25:59.627850,2025-10-28 22:25:59.627850,alice,bob,0,2,133,4.85,done,20,0
+610,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-29 22:25:59.627850,2025-09-15 22:25:59.627850,charlie,charlie,2,4,105,3.85,open,17,1
+611,Customer email reply,Respond to important client email about billing dispute.,2025-09-05 22:25:59.627850,2025-09-15 22:25:59.627850,bob,charlie,0,12,20,3.32,in_progress,10,1
+612,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-10-13 22:25:59.627850,2025-10-22 22:25:59.627850,bob,bob,2,3,105,3.46,open,9,0
+613,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-09-26 22:25:59.627850,2025-10-16 22:25:59.627850,bob,diana,0,2,151,1.19,in_progress,20,0
+614,Plan sprint,Respond to important client email about billing dispute.,2025-09-11 22:25:59.627850,2025-09-29 22:25:59.627850,bob,bob,0,8,40,3.11,done,18,0
+615,Deploy microservice,Gather sales data and prepare report for stakeholders by Friday.,2025-09-02 22:25:59.627850,2025-09-19 22:25:59.627850,bob,diana,2,12,42,3.45,done,17,0
+616,Prepare monthly report,Respond to important client email about billing dispute.,2025-08-18 22:25:59.627850,2025-09-05 22:25:59.627850,alice,bob,0,3,42,3.77,in_progress,18,1
+617,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-02 22:25:59.627850,2025-09-17 22:25:59.627850,charlie,bob,0,12,53,0.98,open,15,1
+618,Fix login bug,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-22 22:25:59.627850,2025-10-01 22:25:59.627850,bob,bob,2,2,180,0.62,open,9,1
+619,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-09-15 22:25:59.627850,2025-10-05 22:25:59.627850,diana,charlie,0,2,104,2.71,open,20,1
+620,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-08-28 22:25:59.627850,2025-08-30 22:25:59.627850,diana,alice,2,3,110,1.5,done,2,0
+621,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-08-18 22:25:59.627850,2025-08-24 22:25:59.627850,diana,diana,2,8,88,4.4,open,6,1
+622,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-10-02 22:25:59.627850,2025-10-04 22:25:59.627850,diana,charlie,2,4,161,4.73,done,2,0
+623,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-09-16 22:25:59.627850,2025-09-18 22:25:59.627850,alice,diana,2,4,15,4.45,open,2,1
+624,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-09-08 22:25:59.627850,2025-09-10 22:25:59.627850,diana,alice,2,2,79,2.48,in_progress,2,1
+625,Update dependencies,Write unit tests for payment module to improve coverage.,2025-08-24 22:25:59.627850,2025-09-07 22:25:59.627850,charlie,alice,0,8,137,4.57,in_progress,14,1
+626,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-29 22:25:59.627850,2025-10-16 22:25:59.627850,alice,bob,0,12,154,4.72,done,17,0
+627,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-09-08 22:25:59.627850,2025-09-22 22:25:59.627850,charlie,diana,0,1,50,2.54,done,14,0
+628,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-08-19 22:25:59.627850,2025-08-28 22:25:59.627850,charlie,bob,2,8,192,1.06,open,9,1
+629,Write unit tests,Respond to important client email about billing dispute.,2025-08-19 22:25:59.627850,2025-09-05 22:25:59.627850,diana,bob,0,4,145,2.21,open,17,1
+630,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-08 22:25:59.627850,2025-10-13 22:25:59.627850,bob,bob,1,2,187,0.73,in_progress,5,1
+631,Update dependencies,Write unit tests for payment module to improve coverage.,2025-09-01 22:25:59.627850,2025-09-07 22:25:59.627850,alice,bob,1,2,5,3.3,in_progress,6,1
+632,Fix login bug,Write unit tests for payment module to improve coverage.,2025-09-14 22:25:59.627850,2025-09-30 22:25:59.627850,alice,diana,2,2,60,3.15,in_progress,16,1
+633,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-09-11 22:25:59.627850,2025-09-14 22:25:59.627850,alice,bob,2,6,76,3.29,done,3,0
+634,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-25 22:25:59.627850,2025-08-30 22:25:59.627850,alice,charlie,2,1,42,4.34,done,5,0
+635,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-02 22:25:59.627850,2025-09-13 22:25:59.627850,alice,alice,0,1,111,4.97,open,11,1
+636,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-25 22:25:59.627850,2025-10-15 22:25:59.627850,bob,diana,0,8,153,2.12,open,20,0
+637,Design landing page,Update package.json dependencies and run compatibility tests.,2025-09-03 22:25:59.627850,2025-09-15 22:25:59.627850,diana,alice,0,12,114,4.29,open,12,1
+638,Update dependencies,Write unit tests for payment module to improve coverage.,2025-08-22 22:25:59.627850,2025-08-26 22:25:59.627850,charlie,charlie,1,6,110,2.86,done,4,0
+639,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-17 22:25:59.627850,2025-08-21 22:25:59.627850,alice,diana,2,8,181,3.22,done,4,0
+640,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-21 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,charlie,0,2,162,3.03,done,11,0
+641,Write unit tests,Write unit tests for payment module to improve coverage.,2025-10-04 22:25:59.627850,2025-10-10 22:25:59.627850,bob,charlie,1,2,5,1.03,in_progress,6,1
+642,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-10-04 22:25:59.627850,2025-10-24 22:25:59.627850,diana,diana,0,1,90,2.07,done,20,0
+643,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-23 22:25:59.627850,2025-09-30 22:25:59.627850,charlie,charlie,2,12,22,1.88,done,7,0
+644,Research new lib,Respond to important client email about billing dispute.,2025-10-02 22:25:59.627850,2025-10-03 22:25:59.627850,alice,charlie,2,3,106,3.76,done,1,0
+645,Fix login bug,Gather sales data and prepare report for stakeholders by Friday.,2025-08-26 22:25:59.627850,2025-09-06 22:25:59.627850,charlie,diana,2,4,14,3.41,in_progress,11,1
+646,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-10-10 22:25:59.627850,2025-10-28 22:25:59.627850,charlie,diana,0,12,110,4.68,open,18,0
+647,Research new lib,Update package.json dependencies and run compatibility tests.,2025-09-19 22:25:59.627850,2025-09-30 22:25:59.627850,alice,bob,0,6,180,1.99,in_progress,11,1
+648,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-31 22:25:59.627850,2025-09-01 22:25:59.627850,charlie,diana,2,8,141,4.29,done,1,0
+649,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-08-25 22:25:59.627850,2025-09-14 22:25:59.627850,alice,charlie,0,8,85,3.69,in_progress,20,1
+650,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-09-14 22:25:59.627850,2025-09-22 22:25:59.627850,charlie,diana,0,12,82,1.47,in_progress,8,1
+651,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-09-06 22:25:59.627850,2025-09-08 22:25:59.627850,bob,alice,2,4,134,0.61,in_progress,2,1
+652,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-08-26 22:25:59.627850,2025-09-06 22:25:59.627850,diana,charlie,0,12,88,1.14,open,11,1
+653,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-08-27 22:25:59.627850,2025-08-29 22:25:59.627850,diana,diana,2,8,138,1.02,in_progress,2,1
+654,Fix login bug,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-08 22:25:59.627850,2025-10-11 22:25:59.627850,charlie,diana,2,1,31,2.84,done,3,0
+655,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-19 22:25:59.627850,2025-09-29 22:25:59.627850,bob,charlie,0,2,54,1.79,done,10,0
+656,Customer email reply,Write unit tests for payment module to improve coverage.,2025-09-25 22:25:59.627850,2025-09-29 22:25:59.627850,charlie,bob,1,2,75,1.02,done,4,0
+657,Research new lib,Investigate new ML library for text embeddings and feasibility.,2025-08-20 22:25:59.627850,2025-08-27 22:25:59.627850,charlie,charlie,1,3,41,4.74,in_progress,7,1
+658,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-08-24 22:25:59.627850,2025-08-27 22:25:59.627850,charlie,charlie,2,6,118,0.73,open,3,1
+659,Write unit tests,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-20 22:25:59.627850,2025-09-02 22:25:59.627850,alice,alice,0,4,105,1.31,done,13,0
+660,Plan sprint,Write unit tests for payment module to improve coverage.,2025-09-22 22:25:59.627850,2025-10-04 22:25:59.627850,charlie,charlie,0,12,55,3.71,done,12,0
+661,Research new lib,Create responsive landing page for product X using Figma mockups.,2025-10-12 22:25:59.627850,2025-10-27 22:25:59.627850,bob,alice,0,12,183,2.61,in_progress,15,0
+662,Update dependencies,Write unit tests for payment module to improve coverage.,2025-09-13 22:25:59.627850,2025-09-21 22:25:59.627850,bob,bob,0,12,162,1.66,in_progress,8,1
+663,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-09-27 22:25:59.627850,2025-10-08 22:25:59.627850,charlie,diana,0,4,12,0.79,open,11,1
+664,Customer email reply,Write unit tests for payment module to improve coverage.,2025-09-12 22:25:59.627850,2025-09-18 22:25:59.627850,charlie,charlie,1,6,152,1.07,open,6,1
+665,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-09-03 22:25:59.627850,2025-09-21 22:25:59.627850,alice,charlie,0,6,123,2.3,in_progress,18,1
+666,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-29 22:25:59.627850,2025-09-16 22:25:59.627850,bob,diana,2,4,21,2.03,done,18,0
+667,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-10-03 22:25:59.627850,2025-10-17 22:25:59.627850,charlie,bob,0,2,174,3.51,done,14,0
+668,Plan sprint,Write unit tests for payment module to improve coverage.,2025-08-21 22:25:59.627850,2025-09-09 22:25:59.627850,diana,charlie,0,6,29,4.2,open,19,1
+669,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-08-18 22:25:59.627850,2025-09-07 22:25:59.627850,alice,diana,0,3,131,3.4,open,20,1
+670,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-10-05 22:25:59.627850,2025-10-10 22:25:59.627850,alice,bob,1,8,43,2.54,in_progress,5,1
+671,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-19 22:25:59.627850,2025-10-04 22:25:59.627850,bob,bob,0,8,86,1.85,done,15,0
+672,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-28 22:25:59.627850,2025-10-10 22:25:59.627850,alice,alice,0,6,135,2.32,open,12,1
+673,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-06 22:25:59.627850,2025-09-24 22:25:59.627850,alice,alice,0,8,148,4.19,in_progress,18,1
+674,Design landing page,Update package.json dependencies and run compatibility tests.,2025-10-08 22:25:59.627850,2025-10-09 22:25:59.627850,bob,diana,2,8,156,2.27,in_progress,1,1
+675,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-07 22:25:59.627850,2025-09-21 22:25:59.627850,bob,bob,0,4,40,1.35,in_progress,14,1
+676,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-23 22:25:59.627850,2025-09-02 22:25:59.627850,bob,bob,0,1,23,3.42,open,10,1
+677,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-08-22 22:25:59.627850,2025-08-25 22:25:59.627850,bob,diana,2,12,121,4.52,done,3,0
+678,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-09-22 22:25:59.627850,2025-09-28 22:25:59.627850,diana,diana,1,6,120,2.23,open,6,1
+679,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-09-21 22:25:59.627850,2025-09-22 22:25:59.627850,diana,bob,2,8,133,1.71,done,1,0
+680,Plan sprint,Respond to important client email about billing dispute.,2025-08-16 22:25:59.627850,2025-08-18 22:25:59.627850,diana,charlie,2,1,153,2.67,done,2,0
+681,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-09-29 22:25:59.627850,2025-10-16 22:25:59.627850,charlie,diana,0,6,25,2.86,done,17,0
+682,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-09-13 22:25:59.627850,2025-09-16 22:25:59.627850,charlie,alice,2,3,141,4.0,in_progress,3,1
+683,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-10-10 22:25:59.627850,2025-10-26 22:25:59.627850,charlie,diana,0,3,80,1.8,open,16,0
+684,Plan sprint,Update package.json dependencies and run compatibility tests.,2025-09-29 22:25:59.627850,2025-10-18 22:25:59.627850,charlie,alice,0,8,126,3.1,done,19,0
+685,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-10-04 22:25:59.627850,2025-10-24 22:25:59.627850,alice,charlie,2,4,26,1.07,open,20,0
+686,Update dependencies,Update package.json dependencies and run compatibility tests.,2025-08-22 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,charlie,0,12,70,0.56,open,20,1
+687,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-10-11 22:25:59.627850,2025-10-30 22:25:59.627850,bob,diana,0,3,49,1.68,done,19,0
+688,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-08-25 22:25:59.627850,2025-09-11 22:25:59.627850,alice,charlie,2,1,42,3.18,open,17,1
+689,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-10-02 22:25:59.627850,2025-10-15 22:25:59.627850,bob,diana,0,8,168,1.25,done,13,0
+690,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-24 22:25:59.627850,2025-10-03 22:25:59.627850,alice,alice,0,2,123,2.29,in_progress,9,1
+691,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-08-28 22:25:59.627850,2025-09-10 22:25:59.627850,diana,diana,0,3,42,2.89,in_progress,13,1
+692,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-10-12 22:25:59.627850,2025-10-27 22:25:59.627850,diana,charlie,2,6,179,4.8,open,15,0
+693,Research new lib,Respond to important client email about billing dispute.,2025-10-07 22:25:59.627850,2025-10-21 22:25:59.627850,charlie,charlie,0,3,73,4.11,in_progress,14,0
+694,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-09-12 22:25:59.627850,2025-09-20 22:25:59.627850,bob,charlie,0,8,181,4.97,in_progress,8,1
+695,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-26 22:25:59.627850,2025-09-27 22:25:59.627850,alice,alice,2,4,30,2.86,done,1,0
+696,Write unit tests,Respond to important client email about billing dispute.,2025-08-28 22:25:59.627850,2025-09-07 22:25:59.627850,charlie,bob,0,1,11,3.29,open,10,1
+697,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-10-13 22:25:59.627850,2025-11-02 22:25:59.627850,alice,alice,0,1,159,1.08,done,20,0
+698,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-10-10 22:25:59.627850,2025-10-14 22:25:59.627850,bob,charlie,1,3,124,3.47,open,4,0
+699,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-10-02 22:25:59.627850,2025-10-16 22:25:59.627850,charlie,charlie,0,2,23,1.75,open,14,0
+700,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-09-04 22:25:59.627850,2025-09-06 22:25:59.627850,charlie,charlie,2,2,117,0.81,open,2,1
+701,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-08-25 22:25:59.627850,2025-09-10 22:25:59.627850,alice,bob,0,6,115,1.48,done,16,0
+702,Design landing page,Write unit tests for payment module to improve coverage.,2025-09-28 22:25:59.627850,2025-10-07 22:25:59.627850,alice,alice,0,1,23,3.07,in_progress,9,1
+703,Write unit tests,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-10 22:25:59.627850,2025-10-26 22:25:59.627850,bob,alice,0,1,175,2.26,open,16,0
+704,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-19 22:25:59.627850,2025-09-20 22:25:59.627850,diana,diana,2,4,108,4.3,open,1,1
+705,Research new lib,Deploy new service to production cluster and monitor for errors.,2025-08-14 22:25:59.627850,2025-08-27 22:25:59.627850,diana,alice,0,6,142,4.71,in_progress,13,1
+706,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-09-08 22:25:59.627850,2025-09-10 22:25:59.627850,alice,charlie,2,6,92,0.86,in_progress,2,1
+707,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-08-25 22:25:59.627850,2025-09-12 22:25:59.627850,alice,diana,0,8,53,1.84,in_progress,18,1
+708,Design landing page,Respond to important client email about billing dispute.,2025-09-14 22:25:59.627850,2025-09-17 22:25:59.627850,diana,bob,2,2,14,1.37,done,3,0
+709,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-14 22:25:59.627850,2025-09-27 22:25:59.627850,alice,charlie,0,4,141,4.84,in_progress,13,1
+710,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-04 22:25:59.627850,2025-09-06 22:25:59.627850,charlie,alice,2,4,35,1.45,done,2,0
+711,Research new lib,Write unit tests for payment module to improve coverage.,2025-10-13 22:25:59.627850,2025-10-31 22:25:59.627850,bob,bob,0,1,14,3.81,in_progress,18,0
+712,Fix login bug,Write unit tests for payment module to improve coverage.,2025-10-11 22:25:59.627850,2025-10-31 22:25:59.627850,alice,bob,2,8,171,1.09,open,20,0
+713,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-10-05 22:25:59.627850,2025-10-09 22:25:59.627850,diana,bob,2,12,156,0.79,open,4,1
+714,Design landing page,Write unit tests for payment module to improve coverage.,2025-09-21 22:25:59.627850,2025-10-11 22:25:59.627850,bob,alice,0,12,56,2.42,done,20,0
+715,Optimize DB queries,Respond to important client email about billing dispute.,2025-08-21 22:25:59.627850,2025-09-09 22:25:59.627850,bob,charlie,0,12,59,3.94,done,19,0
+716,Prepare monthly report,Respond to important client email about billing dispute.,2025-08-18 22:25:59.627850,2025-08-22 22:25:59.627850,charlie,bob,1,12,111,1.26,in_progress,4,1
+717,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-09-11 22:25:59.627850,2025-09-19 22:25:59.627850,alice,bob,0,1,166,3.26,open,8,1
+718,Fix login bug,Write unit tests for payment module to improve coverage.,2025-08-19 22:25:59.627850,2025-08-20 22:25:59.627850,alice,bob,2,1,185,3.43,in_progress,1,1
+719,Optimize DB queries,Write unit tests for payment module to improve coverage.,2025-09-27 22:25:59.627850,2025-10-02 22:25:59.627850,bob,bob,1,8,74,2.85,in_progress,5,1
+720,Deploy microservice,Gather sales data and prepare report for stakeholders by Friday.,2025-09-22 22:25:59.627850,2025-09-24 22:25:59.627850,bob,diana,2,6,27,3.32,in_progress,2,1
+721,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-14 22:25:59.627850,2025-09-01 22:25:59.627850,bob,bob,0,1,140,4.9,done,18,0
+722,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-09-15 22:25:59.627850,2025-09-23 22:25:59.627850,diana,bob,0,3,18,1.37,open,8,1
+723,Write unit tests,Write unit tests for payment module to improve coverage.,2025-08-25 22:25:59.627850,2025-08-31 22:25:59.627850,alice,alice,1,8,98,1.78,in_progress,6,1
+724,Update dependencies,Respond to important client email about billing dispute.,2025-09-22 22:25:59.627850,2025-10-07 22:25:59.627850,alice,alice,0,8,18,4.66,open,15,1
+725,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-14 22:25:59.627850,2025-10-01 22:25:59.627850,alice,alice,0,2,189,2.5,done,17,0
+726,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-26 22:25:59.627850,2025-09-06 22:25:59.627850,bob,alice,0,3,63,0.94,done,11,0
+727,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-09-07 22:25:59.627850,2025-09-15 22:25:59.627850,alice,diana,0,6,129,0.74,in_progress,8,1
+728,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-10-12 22:25:59.627850,2025-11-01 22:25:59.627850,diana,bob,0,4,100,1.11,done,20,0
+729,Deploy microservice,Respond to important client email about billing dispute.,2025-08-31 22:25:59.627850,2025-09-07 22:25:59.627850,charlie,bob,2,1,182,3.06,in_progress,7,1
+730,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-10-07 22:25:59.627850,2025-10-22 22:25:59.627850,diana,diana,0,2,199,2.05,in_progress,15,0
+731,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-10-03 22:25:59.627850,2025-10-23 22:25:59.627850,bob,bob,0,1,110,4.36,in_progress,20,0
+732,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-13 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,alice,2,8,114,3.81,open,15,1
+733,Deploy microservice,Respond to important client email about billing dispute.,2025-09-10 22:25:59.627850,2025-09-29 22:25:59.627850,bob,bob,2,6,6,2.38,open,19,1
+734,Fix login bug,Write unit tests for payment module to improve coverage.,2025-09-29 22:25:59.627850,2025-10-16 22:25:59.627850,alice,diana,2,6,105,2.66,done,17,0
+735,Design landing page,Write unit tests for payment module to improve coverage.,2025-09-14 22:25:59.627850,2025-09-22 22:25:59.627850,alice,alice,0,8,192,2.33,open,8,1
+736,Prepare monthly report,Respond to important client email about billing dispute.,2025-09-01 22:25:59.627850,2025-09-09 22:25:59.627850,alice,alice,0,4,176,1.87,done,8,0
+737,Write unit tests,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-30 22:25:59.627850,2025-10-19 22:25:59.627850,alice,diana,0,4,40,4.43,in_progress,19,0
+738,Prepare monthly report,Respond to important client email about billing dispute.,2025-09-23 22:25:59.627850,2025-10-08 22:25:59.627850,alice,alice,0,4,181,2.0,open,15,1
+739,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-10-01 22:25:59.627850,2025-10-10 22:25:59.627850,bob,alice,0,6,90,3.81,open,9,1
+740,Research new lib,Respond to important client email about billing dispute.,2025-10-09 22:25:59.627850,2025-10-11 22:25:59.627850,alice,diana,2,3,124,3.29,in_progress,2,1
+741,Customer email reply,Gather sales data and prepare report for stakeholders by Friday.,2025-09-24 22:25:59.627850,2025-10-12 22:25:59.627850,alice,bob,0,2,90,1.57,open,18,1
+742,Write unit tests,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-08 22:25:59.627850,2025-10-15 22:25:59.627850,bob,charlie,1,3,73,2.77,in_progress,7,0
+743,Update dependencies,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-18 22:25:59.627850,2025-08-30 22:25:59.627850,charlie,diana,0,4,133,2.87,open,12,1
+744,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-09-26 22:25:59.627850,2025-10-14 22:25:59.627850,charlie,diana,0,6,99,4.1,done,18,0
+745,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-10-10 22:25:59.627850,2025-10-25 22:25:59.627850,alice,alice,0,4,50,1.8,open,15,0
+746,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-08-31 22:25:59.627850,2025-09-04 22:25:59.627850,bob,diana,1,2,57,2.84,done,4,0
+747,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-09-09 22:25:59.627850,2025-09-27 22:25:59.627850,bob,diana,2,3,112,2.5,done,18,0
+748,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-08-26 22:25:59.627850,2025-08-29 22:25:59.627850,alice,bob,2,12,138,3.4,in_progress,3,1
+749,Plan sprint,Respond to important client email about billing dispute.,2025-09-24 22:25:59.627850,2025-10-05 22:25:59.627850,diana,diana,0,4,82,3.05,in_progress,11,1
+750,Prepare monthly report,Update package.json dependencies and run compatibility tests.,2025-08-28 22:25:59.627850,2025-09-13 22:25:59.627850,charlie,charlie,0,12,17,1.17,in_progress,16,1
+751,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-09-22 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,bob,1,2,186,3.62,done,6,0
+752,Prepare monthly report,Gather sales data and prepare report for stakeholders by Friday.,2025-08-29 22:25:59.627850,2025-09-02 22:25:59.627850,alice,charlie,1,6,37,2.48,in_progress,4,1
+753,Prepare monthly report,Deploy new service to production cluster and monitor for errors.,2025-09-18 22:25:59.627850,2025-09-20 22:25:59.627850,charlie,charlie,2,2,100,2.52,open,2,1
+754,Research new lib,Update package.json dependencies and run compatibility tests.,2025-08-21 22:25:59.627850,2025-08-22 22:25:59.627850,diana,diana,2,12,42,4.77,in_progress,1,1
+755,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-30 22:25:59.627850,2025-10-18 22:25:59.627850,charlie,charlie,0,4,79,4.86,done,18,0
+756,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-29 22:25:59.627850,2025-10-14 22:25:59.627850,charlie,alice,0,8,127,4.55,open,15,0
+757,Research new lib,Create responsive landing page for product X using Figma mockups.,2025-09-02 22:25:59.627850,2025-09-03 22:25:59.627850,diana,bob,2,4,96,0.92,open,1,1
+758,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-09-20 22:25:59.627850,2025-10-07 22:25:59.627850,bob,charlie,0,2,10,0.88,in_progress,17,1
+759,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-09-08 22:25:59.627850,2025-09-15 22:25:59.627850,diana,charlie,1,6,159,2.8,open,7,1
+760,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-23 22:25:59.627850,2025-09-06 22:25:59.627850,charlie,diana,0,3,8,1.78,in_progress,14,1
+761,Update dependencies,Write unit tests for payment module to improve coverage.,2025-10-08 22:25:59.627850,2025-10-26 22:25:59.627850,alice,bob,0,8,118,3.84,in_progress,18,0
+762,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-08-24 22:25:59.627850,2025-09-07 22:25:59.627850,diana,bob,0,12,155,3.19,open,14,1
+763,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-09-13 22:25:59.627850,2025-09-30 22:25:59.627850,charlie,alice,2,6,198,2.19,open,17,1
+764,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-09-09 22:25:59.627850,2025-09-15 22:25:59.627850,diana,bob,1,2,52,4.25,in_progress,6,1
+765,Research new lib,Write unit tests for payment module to improve coverage.,2025-08-16 22:25:59.627850,2025-08-26 22:25:59.627850,charlie,diana,0,6,194,2.59,open,10,1
+766,Fix login bug,Gather sales data and prepare report for stakeholders by Friday.,2025-08-30 22:25:59.627850,2025-09-09 22:25:59.627850,diana,alice,2,8,175,4.52,in_progress,10,1
+767,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-10-11 22:25:59.627850,2025-10-19 22:25:59.627850,alice,alice,0,12,75,2.72,open,8,0
+768,Plan sprint,Respond to important client email about billing dispute.,2025-09-20 22:25:59.627850,2025-10-06 22:25:59.627850,diana,charlie,0,8,180,2.64,done,16,0
+769,Design landing page,Respond to important client email about billing dispute.,2025-09-15 22:25:59.627850,2025-10-04 22:25:59.627850,alice,charlie,0,2,153,0.76,in_progress,19,1
+770,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-09-05 22:25:59.627850,2025-09-11 22:25:59.627850,alice,charlie,1,3,112,3.36,in_progress,6,1
+771,Fix login bug,Update package.json dependencies and run compatibility tests.,2025-09-01 22:25:59.627850,2025-09-18 22:25:59.627850,alice,bob,2,12,165,1.32,open,17,1
+772,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-09-17 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,charlie,0,3,180,3.64,in_progress,11,1
+773,Design landing page,Investigate new ML library for text embeddings and feasibility.,2025-09-20 22:25:59.627850,2025-10-02 22:25:59.627850,bob,alice,0,2,137,1.77,in_progress,12,1
+774,Optimize DB queries,Respond to important client email about billing dispute.,2025-10-11 22:25:59.627850,2025-10-17 22:25:59.627850,alice,bob,1,2,133,1.5,open,6,0
+775,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-27 22:25:59.627850,2025-10-14 22:25:59.627850,alice,diana,0,4,24,1.02,open,17,0
+776,Fix login bug,Write unit tests for payment module to improve coverage.,2025-09-05 22:25:59.627850,2025-09-15 22:25:59.627850,charlie,bob,2,12,118,4.5,done,10,0
+777,Research new lib,Respond to important client email about billing dispute.,2025-08-25 22:25:59.627850,2025-09-04 22:25:59.627850,alice,alice,0,2,37,4.36,open,10,1
+778,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-08-22 22:25:59.627850,2025-08-29 22:25:59.627850,bob,alice,2,4,181,3.93,open,7,1
+779,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-02 22:25:59.627850,2025-10-18 22:25:59.627850,diana,alice,0,2,32,0.65,done,16,0
+780,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-17 22:25:59.627850,2025-09-02 22:25:59.627850,alice,charlie,0,1,21,1.86,open,16,1
+781,Design landing page,Create responsive landing page for product X using Figma mockups.,2025-10-11 22:25:59.627850,2025-10-31 22:25:59.627850,bob,bob,0,2,176,2.08,open,20,0
+782,Prepare monthly report,Update package.json dependencies and run compatibility tests.,2025-10-13 22:25:59.627850,2025-11-01 22:25:59.627850,charlie,charlie,0,2,133,4.01,done,19,0
+783,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-09-19 22:25:59.627850,2025-09-22 22:25:59.627850,alice,alice,2,6,60,3.72,in_progress,3,1
+784,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-08-14 22:25:59.627850,2025-08-18 22:25:59.627850,bob,diana,1,3,183,3.15,in_progress,4,1
+785,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-10-06 22:25:59.627850,2025-10-18 22:25:59.627850,diana,diana,0,2,136,1.52,open,12,0
+786,Customer email reply,Create responsive landing page for product X using Figma mockups.,2025-09-12 22:25:59.627850,2025-09-16 22:25:59.627850,bob,diana,1,12,97,3.67,done,4,0
+787,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-09-03 22:25:59.627850,2025-09-19 22:25:59.627850,alice,diana,2,3,121,3.2,in_progress,16,1
+788,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-09-18 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,diana,0,2,22,4.53,in_progress,14,1
+789,Customer email reply,Gather sales data and prepare report for stakeholders by Friday.,2025-08-14 22:25:59.627850,2025-08-30 22:25:59.627850,alice,diana,0,4,138,3.46,open,16,1
+790,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-09-08 22:25:59.627850,2025-09-21 22:25:59.627850,alice,bob,0,1,98,4.89,in_progress,13,1
+791,Deploy microservice,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-07 22:25:59.627850,2025-10-20 22:25:59.627850,alice,bob,2,12,113,3.76,in_progress,13,0
+792,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-31 22:25:59.627850,2025-09-13 22:25:59.627850,charlie,diana,0,8,159,4.78,in_progress,13,1
+793,Research new lib,Update package.json dependencies and run compatibility tests.,2025-08-23 22:25:59.627850,2025-09-07 22:25:59.627850,alice,alice,0,3,130,2.74,done,15,0
+794,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-20 22:25:59.627850,2025-08-22 22:25:59.627850,alice,diana,2,8,11,4.87,in_progress,2,1
+795,Plan sprint,Respond to important client email about billing dispute.,2025-08-23 22:25:59.627850,2025-09-02 22:25:59.627850,alice,alice,0,8,197,2.84,in_progress,10,1
+796,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-09-01 22:25:59.627850,2025-09-17 22:25:59.627850,diana,charlie,0,6,92,4.14,done,16,0
+797,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-13 22:25:59.627850,2025-10-15 22:25:59.627850,diana,alice,2,4,120,1.92,in_progress,2,0
+798,Write unit tests,Write unit tests for payment module to improve coverage.,2025-08-16 22:25:59.627850,2025-08-18 22:25:59.627850,bob,charlie,2,8,47,2.71,open,2,1
+799,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-14 22:25:59.627850,2025-09-18 22:25:59.627850,diana,diana,1,4,148,4.34,done,4,0
+800,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-08-30 22:25:59.627850,2025-09-15 22:25:59.627850,diana,charlie,2,12,77,1.94,open,16,1
+801,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-22 22:25:59.627850,2025-09-03 22:25:59.627850,charlie,alice,0,12,165,2.04,open,12,1
+802,Optimize DB queries,Respond to important client email about billing dispute.,2025-09-05 22:25:59.627850,2025-09-19 22:25:59.627850,charlie,alice,0,8,67,1.61,done,14,0
+803,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-19 22:25:59.627850,2025-08-22 22:25:59.627850,charlie,alice,2,3,48,0.59,in_progress,3,1
+804,Fix login bug,Write unit tests for payment module to improve coverage.,2025-09-25 22:25:59.627850,2025-10-09 22:25:59.627850,diana,charlie,2,1,183,2.61,open,14,1
+805,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-19 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,alice,0,12,130,0.95,done,13,0
+806,Deploy microservice,Respond to important client email about billing dispute.,2025-09-14 22:25:59.627850,2025-10-01 22:25:59.627850,charlie,bob,2,6,81,2.14,in_progress,17,1
+807,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-09-23 22:25:59.627850,2025-09-26 22:25:59.627850,bob,charlie,2,3,17,1.84,done,3,0
+808,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-09-22 22:25:59.627850,2025-09-25 22:25:59.627850,alice,charlie,2,3,22,3.05,done,3,0
+809,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-08-27 22:25:59.627850,2025-09-08 22:25:59.627850,alice,charlie,0,6,81,2.45,done,12,0
+810,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-09-09 22:25:59.627850,2025-09-22 22:25:59.627850,charlie,diana,0,8,200,2.96,open,13,1
+811,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-09-19 22:25:59.627850,2025-10-05 22:25:59.627850,bob,diana,0,3,168,2.9,done,16,0
+812,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-29 22:25:59.627850,2025-10-01 22:25:59.627850,bob,charlie,2,4,42,1.58,done,2,0
+813,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-09 22:25:59.627850,2025-09-20 22:25:59.627850,alice,bob,0,12,110,1.7,in_progress,11,1
+814,Prepare monthly report,Update package.json dependencies and run compatibility tests.,2025-09-26 22:25:59.627850,2025-10-16 22:25:59.627850,bob,diana,0,2,34,1.17,open,20,0
+815,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-09-12 22:25:59.627850,2025-09-28 22:25:59.627850,diana,diana,2,8,14,1.41,in_progress,16,1
+816,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-30 22:25:59.627850,2025-09-08 22:25:59.627850,bob,alice,0,8,129,4.02,open,9,1
+817,Design landing page,Respond to important client email about billing dispute.,2025-09-21 22:25:59.627850,2025-10-01 22:25:59.627850,alice,diana,0,3,176,3.46,open,10,1
+818,Optimize DB queries,Gather sales data and prepare report for stakeholders by Friday.,2025-08-29 22:25:59.627850,2025-09-02 22:25:59.627850,alice,charlie,1,4,28,1.57,open,4,1
+819,Customer email reply,Respond to important client email about billing dispute.,2025-10-06 22:25:59.627850,2025-10-25 22:25:59.627850,diana,bob,0,4,60,1.15,open,19,0
+820,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-09-11 22:25:59.627850,2025-09-25 22:25:59.627850,charlie,alice,2,4,141,2.19,open,14,1
+821,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-09-10 22:25:59.627850,2025-09-26 22:25:59.627850,bob,charlie,0,12,42,2.13,done,16,0
+822,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-08-15 22:25:59.627850,2025-09-04 22:25:59.627850,alice,alice,0,8,176,1.58,done,20,0
+823,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-09-23 22:25:59.627850,2025-10-05 22:25:59.627850,alice,bob,0,12,118,2.25,in_progress,12,1
+824,Update dependencies,Update package.json dependencies and run compatibility tests.,2025-08-19 22:25:59.627850,2025-08-27 22:25:59.627850,charlie,bob,0,12,46,4.62,done,8,0
+825,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-10-03 22:25:59.627850,2025-10-05 22:25:59.627850,charlie,alice,2,12,130,2.62,in_progress,2,1
+826,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-10-09 22:25:59.627850,2025-10-13 22:25:59.627850,bob,charlie,1,6,21,2.08,done,4,0
+827,Research new lib,Respond to important client email about billing dispute.,2025-09-12 22:25:59.627850,2025-09-13 22:25:59.627850,alice,bob,2,8,118,4.06,open,1,1
+828,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-08-26 22:25:59.627850,2025-09-05 22:25:59.627850,charlie,alice,2,1,45,1.62,done,10,0
+829,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-26 22:25:59.627850,2025-10-10 22:25:59.627850,charlie,diana,0,4,193,1.1,open,14,1
+830,Plan sprint,Respond to important client email about billing dispute.,2025-10-04 22:25:59.627850,2025-10-14 22:25:59.627850,bob,alice,0,4,99,1.32,in_progress,10,0
+831,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-08-15 22:25:59.627850,2025-08-16 22:25:59.627850,bob,alice,2,4,55,1.68,open,1,1
+832,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-09-22 22:25:59.627850,2025-10-06 22:25:59.627850,charlie,bob,2,1,99,1.27,done,14,0
+833,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-28 22:25:59.627850,2025-10-15 22:25:59.627850,diana,diana,0,12,177,2.72,open,17,0
+834,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-10-13 22:25:59.627850,2025-10-22 22:25:59.627850,charlie,diana,2,4,38,2.44,open,9,0
+835,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-10-05 22:25:59.627850,2025-10-15 22:25:59.627850,bob,diana,0,2,109,4.07,open,10,0
+836,Update dependencies,Update package.json dependencies and run compatibility tests.,2025-08-29 22:25:59.627850,2025-09-18 22:25:59.627850,diana,bob,0,3,154,3.58,in_progress,20,1
+837,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-13 22:25:59.627850,2025-09-18 22:25:59.627850,charlie,diana,1,8,59,3.71,done,5,0
+838,Optimize DB queries,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-30 22:25:59.627850,2025-09-02 22:25:59.627850,alice,alice,2,1,90,4.69,in_progress,3,1
+839,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-13 22:25:59.627850,2025-11-02 22:25:59.627850,alice,alice,0,3,134,3.29,in_progress,20,0
+840,Optimize DB queries,Respond to important client email about billing dispute.,2025-08-22 22:25:59.627850,2025-09-09 22:25:59.627850,alice,bob,0,3,48,2.77,in_progress,18,1
+841,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-08-19 22:25:59.627850,2025-08-30 22:25:59.627850,diana,bob,0,3,34,1.91,open,11,1
+842,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-09-30 22:25:59.627850,2025-10-12 22:25:59.627850,diana,charlie,0,3,161,4.23,in_progress,12,1
+843,Research new lib,Respond to important client email about billing dispute.,2025-09-10 22:25:59.627850,2025-09-16 22:25:59.627850,charlie,diana,1,12,43,3.0,done,6,0
+844,Write unit tests,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-26 22:25:59.627850,2025-08-31 22:25:59.627850,alice,bob,1,2,14,2.62,open,5,1
+845,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-08-21 22:25:59.627850,2025-09-06 22:25:59.627850,alice,diana,0,3,186,3.02,in_progress,16,1
+846,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-10-07 22:25:59.627850,2025-10-12 22:25:59.627850,alice,charlie,1,1,57,4.41,open,5,1
+847,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-10-05 22:25:59.627850,2025-10-14 22:25:59.627850,bob,alice,0,6,151,1.31,open,9,0
+848,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-09-26 22:25:59.627850,2025-09-30 22:25:59.627850,charlie,alice,2,3,179,4.92,open,4,1
+849,Optimize DB queries,Respond to important client email about billing dispute.,2025-09-20 22:25:59.627850,2025-09-24 22:25:59.627850,charlie,bob,1,1,25,2.57,done,4,0
+850,Write unit tests,Write unit tests for payment module to improve coverage.,2025-09-23 22:25:59.627850,2025-10-02 22:25:59.627850,alice,charlie,0,1,172,3.3,in_progress,9,1
+851,Customer email reply,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-22 22:25:59.627850,2025-08-29 22:25:59.627850,alice,charlie,1,3,19,3.85,done,7,0
+852,Plan sprint,Optimize slow queries causing high CPU usage on replica DB.,2025-08-19 22:25:59.627850,2025-09-01 22:25:59.627850,charlie,bob,0,2,107,0.9,open,13,1
+853,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-10-02 22:25:59.627850,2025-10-15 22:25:59.627850,charlie,bob,0,1,81,2.71,in_progress,13,0
+854,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-22 22:25:59.627850,2025-09-03 22:25:59.627850,alice,charlie,0,6,56,2.7,in_progress,12,1
+855,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-09-19 22:25:59.627850,2025-10-09 22:25:59.627850,diana,alice,0,12,113,4.15,done,20,0
+856,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-09-23 22:25:59.627850,2025-10-07 22:25:59.627850,alice,alice,0,6,92,4.88,done,14,0
+857,Deploy microservice,Gather sales data and prepare report for stakeholders by Friday.,2025-10-12 22:25:59.627850,2025-10-28 22:25:59.627850,alice,charlie,2,4,116,0.86,in_progress,16,0
+858,Update dependencies,Gather sales data and prepare report for stakeholders by Friday.,2025-08-22 22:25:59.627850,2025-09-01 22:25:59.627850,bob,diana,0,3,150,0.71,open,10,1
+859,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-08-20 22:25:59.627850,2025-09-06 22:25:59.627850,diana,diana,2,1,123,3.47,done,17,0
+860,Update dependencies,Respond to important client email about billing dispute.,2025-08-30 22:25:59.627850,2025-09-18 22:25:59.627850,alice,alice,0,1,194,3.48,open,19,1
+861,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-08-16 22:25:59.627850,2025-08-19 22:25:59.627850,diana,charlie,2,3,155,3.76,done,3,0
+862,Write unit tests,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-04 22:25:59.627850,2025-10-13 22:25:59.627850,charlie,bob,0,2,52,0.85,done,9,0
+863,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-10 22:25:59.627850,2025-09-28 22:25:59.627850,alice,alice,0,4,34,0.56,done,18,0
+864,Write unit tests,Write unit tests for payment module to improve coverage.,2025-09-27 22:25:59.627850,2025-10-10 22:25:59.627850,diana,charlie,0,6,162,2.12,done,13,0
+865,Optimize DB queries,Update package.json dependencies and run compatibility tests.,2025-08-19 22:25:59.627850,2025-08-24 22:25:59.627850,bob,alice,1,2,33,4.17,done,5,0
+866,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-27 22:25:59.627850,2025-09-12 22:25:59.627850,bob,bob,2,4,165,4.36,done,16,0
+867,Deploy microservice,Create responsive landing page for product X using Figma mockups.,2025-09-02 22:25:59.627850,2025-09-17 22:25:59.627850,bob,diana,2,4,10,1.02,open,15,1
+868,Write unit tests,Write unit tests for payment module to improve coverage.,2025-09-13 22:25:59.627850,2025-09-14 22:25:59.627850,diana,bob,2,2,80,3.06,in_progress,1,1
+869,Fix login bug,Respond to important client email about billing dispute.,2025-08-14 22:25:59.627850,2025-08-18 22:25:59.627850,diana,diana,2,12,131,3.82,done,4,0
+870,Research new lib,Update package.json dependencies and run compatibility tests.,2025-08-16 22:25:59.627850,2025-09-01 22:25:59.627850,diana,diana,0,6,156,3.76,done,16,0
+871,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-09-28 22:25:59.627850,2025-09-30 22:25:59.627850,alice,diana,2,6,85,2.99,in_progress,2,1
+872,Optimize DB queries,Write unit tests for payment module to improve coverage.,2025-08-21 22:25:59.627850,2025-09-06 22:25:59.627850,charlie,diana,0,8,116,0.59,in_progress,16,1
+873,Deploy microservice,Write unit tests for payment module to improve coverage.,2025-09-05 22:25:59.627850,2025-09-20 22:25:59.627850,bob,bob,2,6,180,2.03,done,15,0
+874,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-10-09 22:25:59.627850,2025-10-19 22:25:59.627850,diana,diana,0,12,177,3.44,in_progress,10,0
+875,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-09-22 22:25:59.627850,2025-09-29 22:25:59.627850,charlie,alice,1,8,128,1.08,open,7,1
+876,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-14 22:25:59.627850,2025-09-18 22:25:59.627850,diana,diana,1,3,65,1.44,open,4,1
+877,Fix login bug,Respond to important client email about billing dispute.,2025-10-09 22:25:59.627850,2025-10-18 22:25:59.627850,charlie,bob,2,2,133,0.64,open,9,0
+878,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-21 22:25:59.627850,2025-09-10 22:25:59.627850,bob,alice,0,6,62,2.69,in_progress,20,1
+879,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-02 22:25:59.627850,2025-10-20 22:25:59.627850,charlie,bob,0,12,181,4.43,done,18,0
+880,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-12 22:25:59.627850,2025-10-27 22:25:59.627850,diana,alice,0,1,161,3.24,open,15,0
+881,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-15 22:25:59.627850,2025-09-19 22:25:59.627850,bob,alice,1,12,57,4.6,open,4,1
+882,Update dependencies,Write unit tests for payment module to improve coverage.,2025-10-01 22:25:59.627850,2025-10-18 22:25:59.627850,diana,alice,0,2,170,2.14,open,17,0
+883,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-09-11 22:25:59.627850,2025-09-25 22:25:59.627850,alice,bob,0,12,126,2.04,done,14,0
+884,Prepare monthly report,Create responsive landing page for product X using Figma mockups.,2025-08-31 22:25:59.627850,2025-09-12 22:25:59.627850,diana,charlie,0,8,175,1.6,done,12,0
+885,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-08-22 22:25:59.627850,2025-09-05 22:25:59.627850,diana,diana,0,4,137,4.08,in_progress,14,1
+886,Fix login bug,Write unit tests for payment module to improve coverage.,2025-08-23 22:25:59.627850,2025-08-24 22:25:59.627850,alice,alice,2,3,85,2.31,open,1,1
+887,Optimize DB queries,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-08 22:25:59.627850,2025-09-10 22:25:59.627850,bob,alice,2,8,187,4.1,done,2,0
+888,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-08 22:25:59.627850,2025-09-26 22:25:59.627850,charlie,charlie,0,3,7,4.22,done,18,0
+889,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-09-27 22:25:59.627850,2025-10-10 22:25:59.627850,diana,bob,0,6,164,4.05,done,13,0
+890,Write unit tests,Respond to important client email about billing dispute.,2025-10-09 22:25:59.627850,2025-10-22 22:25:59.627850,bob,charlie,0,1,14,2.92,in_progress,13,0
+891,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-09-17 22:25:59.627850,2025-09-27 22:25:59.627850,bob,alice,0,6,146,1.91,in_progress,10,1
+892,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-15 22:25:59.627850,2025-09-02 22:25:59.627850,charlie,bob,0,12,82,3.77,done,18,0
+893,Design landing page,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-06 22:25:59.627850,2025-10-18 22:25:59.627850,charlie,charlie,0,1,17,3.9,open,12,0
+894,Write unit tests,Update package.json dependencies and run compatibility tests.,2025-09-19 22:25:59.627850,2025-09-20 22:25:59.627850,diana,charlie,2,2,195,4.95,done,1,0
+895,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-28 22:25:59.627850,2025-09-09 22:25:59.627850,charlie,charlie,0,8,188,3.08,open,12,1
+896,Optimize DB queries,Investigate new ML library for text embeddings and feasibility.,2025-09-30 22:25:59.627850,2025-10-08 22:25:59.627850,alice,charlie,0,6,154,1.37,in_progress,8,1
+897,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-08-23 22:25:59.627850,2025-09-06 22:25:59.627850,diana,alice,0,1,20,2.41,open,14,1
+898,Write unit tests,Deploy new service to production cluster and monitor for errors.,2025-09-11 22:25:59.627850,2025-09-14 22:25:59.627850,charlie,diana,2,6,148,2.84,in_progress,3,1
+899,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-14 22:25:59.627850,2025-09-28 22:25:59.627850,diana,diana,0,8,111,4.21,open,14,1
+900,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-09-14 22:25:59.627850,2025-09-29 22:25:59.627850,bob,alice,0,8,59,2.55,open,15,1
+901,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-09-06 22:25:59.627850,2025-09-10 22:25:59.627850,diana,alice,1,1,99,3.07,open,4,1
+902,Research new lib,Gather sales data and prepare report for stakeholders by Friday.,2025-08-21 22:25:59.627850,2025-09-02 22:25:59.627850,charlie,charlie,0,3,80,2.69,open,12,1
+903,Prepare monthly report,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-09 22:25:59.627850,2025-09-11 22:25:59.627850,charlie,charlie,2,2,51,4.19,in_progress,2,1
+904,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-09-18 22:25:59.627850,2025-09-30 22:25:59.627850,alice,alice,2,4,128,3.08,done,12,0
+905,Write unit tests,Respond to important client email about billing dispute.,2025-10-03 22:25:59.627850,2025-10-16 22:25:59.627850,diana,bob,0,12,40,2.77,in_progress,13,0
+906,Write unit tests,Write unit tests for payment module to improve coverage.,2025-08-23 22:25:59.627850,2025-09-03 22:25:59.627850,alice,diana,0,4,64,4.55,in_progress,11,1
+907,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-25 22:25:59.627850,2025-10-10 22:25:59.627850,charlie,alice,0,12,47,3.68,done,15,0
+908,Update dependencies,Investigate new ML library for text embeddings and feasibility.,2025-09-24 22:25:59.627850,2025-09-28 22:25:59.627850,alice,bob,1,6,143,3.1,open,4,1
+909,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-08-26 22:25:59.627850,2025-09-11 22:25:59.627850,alice,alice,0,8,141,1.31,open,16,1
+910,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-08-29 22:25:59.627850,2025-09-17 22:25:59.627850,diana,alice,0,12,141,3.23,in_progress,19,1
+911,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-14 22:25:59.627850,2025-09-15 22:25:59.627850,charlie,diana,2,2,111,0.61,done,1,0
+912,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-30 22:25:59.627850,2025-09-02 22:25:59.627850,alice,alice,2,6,48,1.78,open,3,1
+913,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-08-23 22:25:59.627850,2025-09-02 22:25:59.627850,diana,bob,0,1,162,4.83,open,10,1
+914,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-02 22:25:59.627850,2025-09-15 22:25:59.627850,alice,charlie,2,2,110,4.52,in_progress,13,1
+915,Optimize DB queries,Create responsive landing page for product X using Figma mockups.,2025-08-17 22:25:59.627850,2025-08-24 22:25:59.627850,bob,bob,1,4,135,3.89,in_progress,7,1
+916,Design landing page,Update package.json dependencies and run compatibility tests.,2025-08-17 22:25:59.627850,2025-08-28 22:25:59.627850,diana,diana,0,1,128,0.63,done,11,0
+917,Deploy microservice,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-31 22:25:59.627850,2025-09-18 22:25:59.627850,alice,bob,2,12,147,3.43,open,18,1
+918,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-09 22:25:59.627850,2025-09-24 22:25:59.627850,alice,bob,0,12,41,2.18,open,15,1
+919,Deploy microservice,Investigate new ML library for text embeddings and feasibility.,2025-10-13 22:25:59.627850,2025-10-27 22:25:59.627850,diana,alice,2,1,123,4.83,done,14,0
+920,Update dependencies,Gather sales data and prepare report for stakeholders by Friday.,2025-08-14 22:25:59.627850,2025-08-16 22:25:59.627850,diana,charlie,2,6,69,4.28,in_progress,2,1
+921,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-09-20 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,alice,0,2,194,2.9,open,17,1
+922,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-08 22:25:59.627850,2025-09-12 22:25:59.627850,bob,charlie,1,4,58,3.25,in_progress,4,1
+923,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-10-01 22:25:59.627850,2025-10-16 22:25:59.627850,charlie,bob,0,8,87,2.04,in_progress,15,0
+924,Plan sprint,Respond to important client email about billing dispute.,2025-08-15 22:25:59.627850,2025-08-20 22:25:59.627850,alice,diana,1,1,7,3.53,in_progress,5,1
+925,Research new lib,Write unit tests for payment module to improve coverage.,2025-10-01 22:25:59.627850,2025-10-14 22:25:59.627850,alice,alice,0,6,12,4.52,done,13,0
+926,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-05 22:25:59.627850,2025-09-18 22:25:59.627850,charlie,diana,0,2,183,4.93,open,13,1
+927,Write unit tests,Respond to important client email about billing dispute.,2025-10-12 22:25:59.627850,2025-10-19 22:25:59.627850,diana,alice,1,2,195,0.59,in_progress,7,0
+928,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-08-19 22:25:59.627850,2025-09-08 22:25:59.627850,charlie,bob,0,2,131,4.85,open,20,1
+929,Update dependencies,Write unit tests for payment module to improve coverage.,2025-10-10 22:25:59.627850,2025-10-30 22:25:59.627850,bob,alice,0,2,168,2.28,in_progress,20,0
+930,Plan sprint,Investigate new ML library for text embeddings and feasibility.,2025-09-14 22:25:59.627850,2025-09-20 22:25:59.627850,bob,bob,1,1,155,1.08,open,6,1
+931,Prepare monthly report,Update package.json dependencies and run compatibility tests.,2025-10-12 22:25:59.627850,2025-10-31 22:25:59.627850,bob,charlie,0,2,178,0.6,done,19,0
+932,Research new lib,Plan sprint items and assign tasks to frontend/backend teams.,2025-08-30 22:25:59.627850,2025-09-17 22:25:59.627850,diana,alice,0,4,169,3.53,done,18,0
+933,Fix login bug,Respond to important client email about billing dispute.,2025-09-10 22:25:59.627850,2025-09-24 22:25:59.627850,charlie,alice,2,8,137,2.6,in_progress,14,1
+934,Research new lib,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-09 22:25:59.627850,2025-10-17 22:25:59.627850,alice,charlie,0,4,141,2.52,open,8,0
+935,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-09-04 22:25:59.627850,2025-09-07 22:25:59.627850,alice,bob,2,8,113,4.81,open,3,1
+936,Deploy microservice,Gather sales data and prepare report for stakeholders by Friday.,2025-09-04 22:25:59.627850,2025-09-14 22:25:59.627850,alice,alice,2,1,127,2.44,open,10,1
+937,Plan sprint,Respond to important client email about billing dispute.,2025-10-06 22:25:59.627850,2025-10-15 22:25:59.627850,bob,alice,0,4,66,4.81,open,9,0
+938,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-10-03 22:25:59.627850,2025-10-11 22:25:59.627850,alice,diana,0,12,29,3.31,done,8,0
+939,Design landing page,Create responsive landing page for product X using Figma mockups.,2025-08-17 22:25:59.627850,2025-08-19 22:25:59.627850,diana,charlie,2,12,182,0.79,open,2,1
+940,Fix login bug,Write unit tests for payment module to improve coverage.,2025-08-17 22:25:59.627850,2025-08-27 22:25:59.627850,diana,alice,2,1,178,0.75,open,10,1
+941,Update dependencies,Optimize slow queries causing high CPU usage on replica DB.,2025-09-08 22:25:59.627850,2025-09-12 22:25:59.627850,diana,bob,1,12,158,4.04,done,4,0
+942,Fix login bug,Write unit tests for payment module to improve coverage.,2025-09-07 22:25:59.627850,2025-09-22 22:25:59.627850,diana,alice,2,3,171,4.72,open,15,1
+943,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-09-04 22:25:59.627850,2025-09-23 22:25:59.627850,bob,alice,0,1,8,3.18,open,19,1
+944,Plan sprint,Deploy new service to production cluster and monitor for errors.,2025-10-10 22:25:59.627850,2025-10-29 22:25:59.627850,bob,charlie,0,3,112,2.67,done,19,0
+945,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-08-29 22:25:59.627850,2025-09-03 22:25:59.627850,alice,alice,1,2,84,3.13,done,5,0
+946,Customer email reply,Update package.json dependencies and run compatibility tests.,2025-09-20 22:25:59.627850,2025-10-08 22:25:59.627850,bob,bob,0,4,84,3.21,in_progress,18,1
+947,Customer email reply,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-16 22:25:59.627850,2025-10-05 22:25:59.627850,bob,alice,0,2,134,4.19,done,19,0
+948,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-09-05 22:25:59.627850,2025-09-12 22:25:59.627850,bob,bob,2,12,22,2.04,done,7,0
+949,Write unit tests,Write unit tests for payment module to improve coverage.,2025-09-21 22:25:59.627850,2025-10-02 22:25:59.627850,charlie,charlie,0,4,89,1.23,in_progress,11,1
+950,Fix login bug,Write unit tests for payment module to improve coverage.,2025-08-28 22:25:59.627850,2025-08-29 22:25:59.627850,bob,bob,2,4,164,1.46,in_progress,1,1
+951,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-08-27 22:25:59.627850,2025-09-09 22:25:59.627850,bob,alice,0,3,7,0.83,open,13,1
+952,Research new lib,Create responsive landing page for product X using Figma mockups.,2025-08-23 22:25:59.627850,2025-09-02 22:25:59.627850,diana,bob,0,8,154,4.61,in_progress,10,1
+953,Fix login bug,User cannot login with social auth. Error 500 observed on POST /auth.,2025-08-26 22:25:59.627850,2025-09-02 22:25:59.627850,charlie,bob,2,2,72,3.73,in_progress,7,1
+954,Research new lib,Deploy new service to production cluster and monitor for errors.,2025-08-25 22:25:59.627850,2025-09-01 22:25:59.627850,alice,bob,1,12,72,4.6,open,7,1
+955,Prepare monthly report,Optimize slow queries causing high CPU usage on replica DB.,2025-09-24 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,bob,1,3,121,1.58,in_progress,4,1
+956,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-10-04 22:25:59.627850,2025-10-24 22:25:59.627850,diana,alice,0,1,41,4.47,open,20,0
+957,Deploy microservice,Deploy new service to production cluster and monitor for errors.,2025-09-17 22:25:59.627850,2025-09-30 22:25:59.627850,charlie,charlie,2,6,114,4.9,open,13,1
+958,Fix login bug,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-20 22:25:59.627850,2025-09-27 22:25:59.627850,charlie,bob,2,3,68,0.74,in_progress,7,1
+959,Prepare monthly report,Investigate new ML library for text embeddings and feasibility.,2025-09-20 22:25:59.627850,2025-10-06 22:25:59.627850,bob,alice,0,12,125,4.06,done,16,0
+960,Design landing page,Gather sales data and prepare report for stakeholders by Friday.,2025-09-15 22:25:59.627850,2025-09-28 22:25:59.627850,charlie,diana,0,6,123,1.31,done,13,0
+961,Customer email reply,Investigate new ML library for text embeddings and feasibility.,2025-09-27 22:25:59.627850,2025-10-13 22:25:59.627850,diana,diana,0,3,153,2.3,done,16,0
+962,Fix login bug,Deploy new service to production cluster and monitor for errors.,2025-08-28 22:25:59.627850,2025-09-04 22:25:59.627850,diana,bob,2,4,60,1.88,in_progress,7,1
+963,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-10-12 22:25:59.627850,2025-10-24 22:25:59.627850,charlie,alice,0,2,197,0.88,in_progress,12,0
+964,Research new lib,Respond to important client email about billing dispute.,2025-08-28 22:25:59.627850,2025-09-16 22:25:59.627850,alice,diana,0,6,164,2.01,in_progress,19,1
+965,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-09-09 22:25:59.627850,2025-09-21 22:25:59.627850,diana,charlie,0,3,102,0.61,in_progress,12,1
+966,Deploy microservice,Update package.json dependencies and run compatibility tests.,2025-09-24 22:25:59.627850,2025-09-27 22:25:59.627850,charlie,alice,2,3,133,2.81,done,3,0
+967,Design landing page,Update package.json dependencies and run compatibility tests.,2025-10-12 22:25:59.627850,2025-10-20 22:25:59.627850,alice,alice,0,1,97,0.67,open,8,0
+968,Customer email reply,Deploy new service to production cluster and monitor for errors.,2025-09-26 22:25:59.627850,2025-10-07 22:25:59.627850,charlie,charlie,0,8,179,4.3,open,11,1
+969,Plan sprint,Gather sales data and prepare report for stakeholders by Friday.,2025-10-07 22:25:59.627850,2025-10-25 22:25:59.627850,charlie,alice,0,12,81,1.77,in_progress,18,0
+970,Optimize DB queries,Optimize slow queries causing high CPU usage on replica DB.,2025-10-05 22:25:59.627850,2025-10-24 22:25:59.627850,alice,diana,0,8,136,4.95,open,19,0
+971,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-08-28 22:25:59.627850,2025-09-04 22:25:59.627850,diana,bob,1,6,155,4.04,in_progress,7,1
+972,Write unit tests,Respond to important client email about billing dispute.,2025-10-03 22:25:59.627850,2025-10-06 22:25:59.627850,charlie,bob,2,4,183,2.38,in_progress,3,1
+973,Write unit tests,Investigate new ML library for text embeddings and feasibility.,2025-08-15 22:25:59.627850,2025-08-27 22:25:59.627850,bob,bob,0,3,193,0.54,done,12,0
+974,Customer email reply,Respond to important client email about billing dispute.,2025-08-28 22:25:59.627850,2025-09-11 22:25:59.627850,diana,diana,0,12,181,2.92,in_progress,14,1
+975,Plan sprint,User cannot login with social auth. Error 500 observed on POST /auth.,2025-09-19 22:25:59.627850,2025-09-21 22:25:59.627850,bob,bob,2,3,150,3.33,done,2,0
+976,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-08 22:25:59.627850,2025-10-21 22:25:59.627850,diana,bob,0,4,21,2.91,open,13,0
+977,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-09-04 22:25:59.627850,2025-09-23 22:25:59.627850,diana,charlie,0,1,48,0.97,done,19,0
+978,Prepare monthly report,User cannot login with social auth. Error 500 observed on POST /auth.,2025-10-05 22:25:59.627850,2025-10-25 22:25:59.627850,diana,alice,0,2,55,0.81,in_progress,20,0
+979,Update dependencies,Deploy new service to production cluster and monitor for errors.,2025-08-28 22:25:59.627850,2025-09-07 22:25:59.627850,alice,diana,0,1,99,2.83,open,10,1
+980,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-08 22:25:59.627850,2025-09-14 22:25:59.627850,alice,bob,1,6,112,2.65,open,6,1
+981,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-08-22 22:25:59.627850,2025-08-29 22:25:59.627850,charlie,diana,1,12,186,3.49,open,7,1
+982,Plan sprint,Plan sprint items and assign tasks to frontend/backend teams.,2025-10-13 22:25:59.627850,2025-10-23 22:25:59.627850,bob,diana,0,3,56,0.53,open,10,0
+983,Write unit tests,Create responsive landing page for product X using Figma mockups.,2025-10-05 22:25:59.627850,2025-10-18 22:25:59.627850,bob,charlie,0,6,130,2.57,done,13,0
+984,Fix login bug,Create responsive landing page for product X using Figma mockups.,2025-09-01 22:25:59.627850,2025-09-16 22:25:59.627850,charlie,charlie,2,4,161,4.21,open,15,1
+985,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-08-25 22:25:59.627850,2025-09-14 22:25:59.627850,diana,diana,0,4,173,1.33,done,20,0
+986,Design landing page,Optimize slow queries causing high CPU usage on replica DB.,2025-09-27 22:25:59.627850,2025-09-29 22:25:59.627850,bob,bob,2,3,165,2.92,done,2,0
+987,Design landing page,Deploy new service to production cluster and monitor for errors.,2025-10-11 22:25:59.627850,2025-10-27 22:25:59.627850,diana,alice,0,3,24,3.9,done,16,0
+988,Customer email reply,Optimize slow queries causing high CPU usage on replica DB.,2025-09-11 22:25:59.627850,2025-09-17 22:25:59.627850,charlie,bob,1,6,16,2.58,open,6,1
+989,Write unit tests,Optimize slow queries causing high CPU usage on replica DB.,2025-09-04 22:25:59.627850,2025-09-17 22:25:59.627850,bob,diana,0,1,7,1.63,done,13,0
+990,Prepare monthly report,Respond to important client email about billing dispute.,2025-09-25 22:25:59.627850,2025-10-10 22:25:59.627850,diana,diana,0,1,26,2.97,open,15,1
+991,Write unit tests,Gather sales data and prepare report for stakeholders by Friday.,2025-09-13 22:25:59.627850,2025-09-22 22:25:59.627850,bob,bob,0,12,9,3.23,open,9,1
+992,Update dependencies,Create responsive landing page for product X using Figma mockups.,2025-09-17 22:25:59.627850,2025-09-30 22:25:59.627850,bob,alice,0,8,200,0.55,in_progress,13,1
+993,Prepare monthly report,Write unit tests for payment module to improve coverage.,2025-09-05 22:25:59.627850,2025-09-11 22:25:59.627850,bob,alice,1,8,141,1.47,done,6,0
+994,Fix login bug,Investigate new ML library for text embeddings and feasibility.,2025-09-24 22:25:59.627850,2025-09-28 22:25:59.627850,diana,charlie,2,4,18,3.19,open,4,1
+995,Optimize DB queries,Deploy new service to production cluster and monitor for errors.,2025-10-12 22:25:59.627850,2025-10-20 22:25:59.627850,charlie,bob,0,2,28,0.57,open,8,0
+996,Fix login bug,Respond to important client email about billing dispute.,2025-10-05 22:25:59.627850,2025-10-12 22:25:59.627850,alice,bob,2,1,175,1.26,open,7,1
+997,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-09-15 22:25:59.627850,2025-09-19 22:25:59.627850,charlie,charlie,2,6,165,1.35,open,4,1
+998,Research new lib,Optimize slow queries causing high CPU usage on replica DB.,2025-10-13 22:25:59.627850,2025-10-27 22:25:59.627850,alice,bob,0,2,32,2.1,open,14,0
+999,Fix login bug,Optimize slow queries causing high CPU usage on replica DB.,2025-09-24 22:25:59.627850,2025-10-05 22:25:59.627850,alice,diana,2,2,122,1.49,done,11,0
+1000,Update dependencies,Plan sprint items and assign tasks to frontend/backend teams.,2025-09-06 22:25:59.627850,2025-09-08 22:25:59.627850,alice,bob,2,4,82,3.95,in_progress,2,1
