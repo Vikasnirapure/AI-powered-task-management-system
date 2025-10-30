@@ -1,0 +1,6 @@
+{
+  "text_vectorizer": "tfidf_for_priority.joblib",
+  "priority_model": "xgb_priority.joblib",
+  "task_classifier": "model_svm.joblib",
+  "created_on": "2025-10-11"
+}

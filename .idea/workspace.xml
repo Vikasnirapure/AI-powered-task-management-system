@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee9e7872-7862-4601-8347-8ef3756f4fcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Ai powered Task managment system.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features_and_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/features_and_model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_mnb.joblib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_svm.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/model_svm.joblib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfidf_vectorizer.joblib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_test_data.pkl" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="34kc9sSVem370dHrM5OTaGLQkWc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/nirap/Ai powered Task managment system"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee9e7872-7862-4601-8347-8ef3756f4fcc" name="Changes" comment="" />
+      <created>1761760861787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761760861787</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
