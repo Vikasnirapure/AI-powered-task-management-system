@@ -27,3 +27,4 @@ This project uses **Machine Learning** to automatically predict **task priority*
    git clone https://github.com/Vikasnirapure/AI-powered-task-management-system.git
    cd AI-powered-task-management-system
 ## screenshot
+<img width="1676" height="756" alt="image" src="https://github.com/user-attachments/assets/6cb442a9-513d-46fc-977c-b9738c5064b4" />
